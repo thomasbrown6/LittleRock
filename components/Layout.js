@@ -11,9 +11,11 @@ class Layout extends React.Component {
         super(props)
         this.state = {
             isMenuVisible: false,
-            loading: 'is-loading'
+            loading: 'is-loading',
+            isSubMenuVisible: false
         }
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
+        this.handleHoverMenu = this.handleHoverMenu.bind(this)
     }
 
     componentDidMount() {
@@ -34,25 +36,36 @@ class Layout extends React.Component {
         })
     }
 
+    handleHoverMenu() {
+        this.setState({
+            isMenuVisible: !this.state.isSubMenuVisible
+        })
+    }
+
     render() {
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <Head>
-                    <title>Next.js Starter</title>
-                    <meta name="description" content="Next.js Starter - Forty" />
+                    <title>Little Rock A.M.E. Zion</title>
+                    <meta name="description" content="Little Rock A.M.E. Zion Church" />
                     <link href="/static/css/skel.css" rel="stylesheet" />
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
+                    <link
+                    rel="stylesheet"
+                    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+                    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+                    crossorigin="anonymous"
+                    />
                 </Head>
                 <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {this.props.children}
-                    <Contact />
                     <Footer />
                 </div>
-                <Menu onToggleMenu={this.handleToggleMenu} />
+                <Menu onToggleMenu={this.handleToggleMenu} onHoverMenu={this.handleHoverMenu} />
 
             </div>
         )

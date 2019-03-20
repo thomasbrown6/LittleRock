@@ -6,9 +6,19 @@
 
 /* Banner */
 
+#banner2 {
+	div.inner {
+		@include vendor('display', 'flex');
+
+		.carouselbutton {
+			margin: auto;
+		}
+	}
+}
+
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("/static/images/banner.jpg")');
+		@include vendor('background-image', 'url("/static/images/bg.png")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -28,7 +38,7 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
+			background-color: _palette(banner-bg);
 			content: '';
 			display: block;
 			height: 100%;
@@ -41,7 +51,7 @@
 		}
 
 		h1 {
-			font-size: 3.25em;
+			font-size: 1.5em;
 		}
 
 		> .inner {
@@ -51,6 +61,8 @@
 				'filter 0.5s ease',
 				'-webkit-filter 0.5s ease'
 			));
+			@include vendor('text-align', 'center');
+			@include vendor('text-transform', 'uppercase');
 			padding: 0 !important;
 			position: relative;
 			z-index: 2;
@@ -72,12 +84,12 @@
 			}
 
 			.content {
-				@include vendor('display', 'flex');
+				@include vendor('display', 'block');
 				@include vendor('align-items', 'center');
+				@include vendor('text-align', 'center');
 				margin: 0 0 _size(element-margin) 0;
 
 				> * {
-					margin-left: 1.5em;
 					margin-bottom: 0;
 				}
 
@@ -109,7 +121,7 @@
 		&.style3 { &:after { background-color: _palette(accent3); } }
 		&.style4 { &:after { background-color: _palette(accent4); } }
 		&.style5 { &:after { background-color: _palette(accent5); } }
-		&.style6 { &:after { background-color: _palette(accent6); } }
+		&.style6 { &:after { background-color: _palette(accent7); } }
 
 		.body.is-loading & {
 			&:after {

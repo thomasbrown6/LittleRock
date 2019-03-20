@@ -7,7 +7,16 @@
 /* Main */
 
 	#main {
-		background-color: _palette(bg-alt);
+		background-color: _palette(primary);
+
+		.inner {
+			text-align: center;
+			.major {
+				text-align: center;
+				width: 50%;
+				margin: 0 auto;
+			}
+		}
 
 		> * {
 			border-top: solid 1px _palette(border);

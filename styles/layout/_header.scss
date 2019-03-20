@@ -13,25 +13,30 @@
 
 	#header {
 		@include vendor('display', 'flex');
-		background-color: _palette(bg-alt);
+		//background-color: _palette(bg-alt);
+		background-color: _palette(primary);
 		box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15);
 		cursor: default;
 		font-weight: _font(weight-bold);
-		height: 3.25em;
+		height: 4.25em;
 		left: 0;
 		letter-spacing: _font(letter-spacing-alt);
-		line-height: 3.25em;
+		line-height: 4.25em;
 		margin: 0;
 		position: fixed;
 		text-transform: uppercase;
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base);
+		border-bottom: 3px solid _palette(secondary);
 
 		.logo {
+			@include vendor('background-image', 'url("/static/images/logo2.png")');
+			background-repeat: no-repeat;
+			background-size: 260px 117px;
 			border: 0;
 			display: inline-block;
-			font-size: 0.8em;
+			font-size: 3.8em;
 			height: inherit;
 			line-height: inherit;
 			padding: 0 1.5em;
@@ -62,12 +67,41 @@
 			}
 		}
 
+		div.nav-menu {
+			margin: 0 auto;
+			height: 5em;
+			letter-spacing: normal;
+			ul {
+				margin: 0 auto;
+				font-size: 0.9em;
+				text-align: center;
+				list-style: none;
+				display: flex;
+				justify-content: space-around;
+				//height: 45px;
+				//padding-top: 20px;
+				 li {
+					float: none;
+					padding: 0 0.6vw;
+					>a {
+						padding: 10px 2px;
+						border-bottom: 1px solid _palette(secondary);
+						//border: none;
+					}
+				}
+			}
+
+		}
+
+		
+
 		nav {
 			@include vendor('display', 'flex');
 			@include vendor('justify-content', 'flex-end');
-			@include vendor('flex-grow', '1');
+			//@include vendor('flex-grow', '1');
 			height: inherit;
 			line-height: inherit;
+			width: 7em;
 
 			a {
 				border: 0;
@@ -133,9 +167,10 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('animation', 'none');
-			background-color: transparent;
+			//background-color: transparent;
+			background-color: _palette(primary);
 			box-shadow: none;
-			position: absolute;
+			position: relative;
 
 			&.style1 { .logo { strong { color: _palette(accent1); } } }
 			&.style2 { .logo { strong { color: _palette(accent2); } } }
@@ -143,6 +178,10 @@
 			&.style4 { .logo { strong { color: _palette(accent4); } } }
 			&.style5 { .logo { strong { color: _palette(accent5); } } }
 			&.style6 { .logo { strong { color: _palette(accent6); } } }
+
+			.nav-menu {
+					margin: 0 auto;
+			}
 		}
 
 		.body.is-loading & {
@@ -163,6 +202,35 @@
 					}
 				}
 			}
+			.logo {
+				background-size: 218px 108px;
+			}
+
+			div.nav-menu {
+				ul {
+					 li {
+						>a {
+							padding: 0px 2px;
+							height: 53px;
+						}
+					}
+				}
+	
+			}
+		}
+		@include breakpoint(xxlarge) {
+
+			div.nav-menu {
+				ul {
+					 li {
+						>a {
+							padding: 0px 2px;
+							height: 65px;
+						}
+					}
+				}
+	
+			}
 		}
 
 		@include breakpoint(large) {
@@ -176,6 +244,12 @@
 						}
 					}
 				}
+			}
+		}
+
+		@include breakpoint(smedium) {
+			.nav-menu {
+				display: none;
 			}
 		}
 
@@ -243,6 +317,32 @@
 						}
 					}
 				}
+			}
+		}
+		
+		@include breakpoint(min-smedium) {
+			div.nav-menu {
+				//width: 68%;
+				width: auto;
+			}
+		}
+
+		@include breakpoint(min-xxlarge) {
+			div.nav-menu {
+				//width: 62rem;
+				width: auto;
+			}
+		}
+
+		@include breakpoint(min-xxxlarge) {
+			div.nav-menu {
+				margin-left: 5vw;
+			}
+		}
+
+		@include breakpoint(min-xxxxlarge) {
+			div.nav-menu {
+				margin-left: 15vw;
 			}
 		}
 	}

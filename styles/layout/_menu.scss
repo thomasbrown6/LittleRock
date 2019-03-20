@@ -163,6 +163,7 @@
 				@include vendor('transform', 'none');
 				opacity: 1;
 				visibility: visible;
+				max-width: 69em;
 			}
 		}
 	}

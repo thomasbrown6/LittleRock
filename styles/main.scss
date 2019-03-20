@@ -10,12 +10,21 @@
 */
 
 	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
+		xxlarge: '(max-width: 2000px)',
+		xlarge: '(max-width: 1682px)',
 		large: '(max-width: 1280px)',
+		smedium: '(max-width: 1110px)',
 		medium: '(max-width: 980px)',
 		small: '(max-width: 736px)',
 		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
+		xxsmall: '(max-width: 360px)',
+
+		min-xxxxlarge: '(min-width: 2500px)',
+		min-xxxlarge: '(min-width: 1865px)',
+		min-xxlarge: '(min-width: 1650px)',
+		min-xlarge: '(min-width: 1480px)',
+		min-large: '(min-width: 1280px)',
+		min-smedium: '(min-width: 1122px)'
 	));
 
 	@include skel-layout((
@@ -69,8 +78,13 @@
 
 	@import 'layout/header';
 	@import 'layout/banner';
+	@import 'layout/banner2';
 	@import 'layout/main';
 	@import 'layout/contact';
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
+	@import 'layout/menu2';
+
+// Custom.
+	@import "react-alice-carousel/src/alice-carousel.scss";

@@ -2,17 +2,65 @@ import Link from 'next/link'
 
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
+import { Container, Row, Col } from 'react-bootstrap'
 
 export default () => (
     <Layout>
         <div>
-            <Banner />
+            <Banner
+                title="Little Rock"
+                p=""
+                buttontext="WATCH NOW"
+                link="VIEW MORE SERMONS"
+                linkhref="/sermons"
+            />
 
             <div id="main">
-                <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                
+            <section id="two">
+                    <div className="inner">
+                        <Container>
+                        <Row>
+                                <Col>
+                                <header className="major">
+                            <h2>Section 1</h2>
+                        </header>
+                        <p>Here will be important information regarding the church</p>
+                        <ul className="actions">
+                            <li><Link href="/"><a className="button next">Give Online</a></Link></li>
+                        </ul>
+                                </Col>
+                                <Col xs={6}>
+                                <header className="major">
+                            <h2>Section 2</h2>
+                        </header>
+                        <p>Here will be important information regarding the church</p>
+                        <p>Also, white border around logo will not be there for production</p>
+                        <ul className="actions">
+                            <li><Link href="/"><a className="button next">Watch Online</a></Link></li>
+                        </ul>
+                                </Col>
+                                <Col>
+                                <header className="major">
+                            <h2>Section 3</h2>
+                        </header>
+                        <p>Here will be important information regarding the church</p>
+                        <ul className="actions">
+                            <li><Link href="/"><a className="button next">Events</a></Link></li>
+                        </ul>
+                                </Col>
+                        </Row>
+                        </Container>
+                       
+                       
+                        
+                    </div>
+                </section>
+
+                {/* <section id="one" className="tiles">
+                    <article style={{backgroundImage: `url('/static/images/church-img5.jpg')`}}>
                         <header className="major">
-                            <h3>Aliquam</h3>
+                            <h3>Meet Our Pastor</h3>
                             <p>Ipsum dolor sit amet</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
@@ -52,18 +100,7 @@ export default () => (
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                </section>
-                <section id="two">
-                    <div className="inner">
-                        <header className="major">
-                            <h2>Massa libero</h2>
-                        </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                        <ul className="actions">
-                            <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
-                        </ul>
-                    </div>
-                </section>
+                </section> */}
             </div>
 
         </div>

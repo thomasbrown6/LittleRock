@@ -6,13 +6,16 @@
 
 /* Wrapper */
 
+ul > li {
+	padding-left: 0;
+}
+
 	#wrapper {
 		@include vendor('transition', (
 			'filter #{_duration(menu)} ease',
 			'-webkit-filter #{_duration(menu)} ease',
 			'opacity 0.375s ease-out'
 		));
-		padding-top: 3.25em;
 
 		&.is-transitioning {
 			opacity: 0;
