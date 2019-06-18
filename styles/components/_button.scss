@@ -6,6 +6,65 @@
 
 /* Button */
 
+button.button-bottom {
+	padding: 100px 240px;
+    background: url(../../static/images/btn-background.png);
+    background-size: cover;
+    margin: 0px auto 150px auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+
+	p {
+		position: absolute;
+		text-align: Center;
+		text-transform: uppercase;
+		margin: 10px 0 15px 0;
+	}
+	
+
+	p:nth-child(1) {
+		font-size: 35px;
+		font-weight: 700;
+		margin-top: -15px;
+		padding-bottom: 20px;
+		color: _palette(primary);
+	}
+
+	p:nth-child(2) {
+		//font-family: "soleil";
+		font-weight: 300;
+		color: #fff;
+		font-size: 30px;
+	}
+	
+}
+
+.bottom-buttons {
+	display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1800px;
+	margin: 0 auto;
+	
+	a {
+		margin: 15px;
+		-webkit-transition: all 0.25s ease-in-out;
+	}
+}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],

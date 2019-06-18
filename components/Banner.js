@@ -1,84 +1,105 @@
-import Link from 'next/link'
-import AliceCarousel from 'react-alice-carousel'
+import Link from "next/link";
+import ImageGallery from 'react-image-gallery';
 
 
 class Banner extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            currentIndex: 0
-        }
-    }
-    //  handleOnDragStart = e => e.preventDefault()
-    // slideNext = () => this.setState({ currentIndex: this.state.currentIndex + 1 });
-    // slidePrev = () => this.setState({ currentIndex: this.state.currentIndex - 1 });
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      currentIndex: 0
+    };
+ 
+  }  
+  //  handleOnDragStart = e => e.preventDefault()
+  // slideNext = () => this.setState({ currentIndex: this.state.currentIndex + 1 });
+  // slidePrev = () => this.setState({ currentIndex: this.state.currentIndex - 1 });
 
-    render() {
-        return (
+  render() {
+
+
+    const slideImages = [
+      require('../static/images/church-img2.jpg'),
+      require('../static/images/church-img3.jpg'),
+      require('../static/images/church-img4.jpg')
+    ];
+
+    const images = [
+      {
+        original: require('../static/images/church-img2.jpg')
+        //thumbnail: 'http://lorempixel.com/250/150/nature/1/',
+      },
+      {
+        original: require('../static/images/header-designed.jpg')
+        //thumbnail: 'http://lorempixel.com/250/150/nature/2/'
+      },
+      {
+        original: require('../static/images/header2-designed.jpg')
+       // thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      }
+    ]
+
+    let control;
+
+    if (this.props.slideshow) {
+      control = <ImageGallery
+        items={images}
+        showFullscreenButton={false}
+        showPlayButton={false}
+        autoPlay={true}
+        slideDuration={500}
+        slideInterval={5000}
+        useTranslate3D={true}/>
         
-            <section id="banner" className="major">
-        <div className="inner">
-            <header className="major">
-                <h1>{this.props.title}</h1>
-            </header>
-            <div className="content">
-                <p>{this.props.p}</p>
-                <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">{this.props.buttontext}</a></li>
-                </ul>
-                <Link href={this.props.linkhref}><a>{this.props.link}</a></Link>
-            </div>
-        </div>
-    </section>
         
-        // <section id="banner2" className="major">
-        //     <div className="inner">
-        //         <button className="carouselbutton" onClick={() => this.slidePrev()}>{"<<"}</button>
-
-        //         <AliceCarousel
-        //             mouseDragEnabled
-        //             duration={4000}
-        //             autoPlay={true}
-        //             fadeOutAnimation={true}
-        //             stopAutoPlayOnHover={false}
-        //             dotsDisabled={true}
-        //             buttonsDisabled={true}
-        //         >
-        //             <img src="../static/images/church1.jpg" onDragStart={this.handleOnDragStart} className="img-carousel-1" />
-        //             <img src="../static/images/church2.jpg" onDragStart={this.handleOnDragStart} className="img-carousel-2" />
-        //             <img src="../static/images/church3.jpg" onDragStart={this.handleOnDragStart} className="img-carousel-3" />
-        //             <img src="../static/images/church4.jpg" onDragStart={this.handleOnDragStart} className="img-carousel-4" />
-        //             <img src="../static/images/church5.jpg" onDragStart={this.handleOnDragStart} className="img-carousel-5" />
-        //         </AliceCarousel>
-
-        //         <button className="carouselbutton" onClick={() => this.slideNext()}>{">>"}</button>
-        //     </div>
-        // </section>
-        )
+    } else {
+      control = <div><section id={this.props.id} style={this.divStyle} className="major">
+                  {this.props.image != null && (
+                    <img className="banner-image" src={this.props.image} />
+                    )}
+                
+                  <span className="header-text">{this.props.headerText}</span>
+                </section>
+                
+                <section className="breadcrumb-section">
+                  {this.props.Breadcrumb1 != null && (
+                
+                  <div className="breadcrumb-grid">
+                    <div className="breadcrumb-panel">
+                      <ul className="breadcrumb">
+                        {this.props.Breadcrumb1 != null && (
+                          <li href={this.props.href1}>
+                          <Link href={this.props.href1}><a>{this.props.Breadcrumb1}</a></Link>
+                          </li>
+                          )}
+                          {this.props.Breadcrumb2 != null && (
+                            <li href={this.props.href2}>
+                          <Link href={this.props.href2}><a>{this.props.Breadcrumb2}</a></Link>
+                          </li>
+                          )}
+                          {this.props.Breadcrumb3 != null && (
+                            <li href={this.props.href3}>
+                              {this.props.href3 ? <Link href={this.props.href3}><a>{this.props.Breadcrumb3}</a></Link> : <span>{this.props.Breadcrumb3}</span>}
+                            </li>
+                          )}
+                          {this.props.Breadcrumb4 != null && (
+                            <li href={this.props.href4}>
+                          <Link href={this.props.href4}><a>{this.props.Breadcrumb4}</a></Link>
+                          </li>
+                          )}
+                      </ul>
+                      </div>
+                    </div>
+                    )}
+                </section></div>
     }
+    
+    return (
+      <div>
+        {control}
+      </div>
+    );
+  }
 }
 
-export default Banner
-
-
-
-
-
-
-
-
-
-// <section id="banner" className="major">
-//         <div className="inner">
-//             <header className="major">
-//                 <h1>{props.title}</h1>
-//             </header>
-//             <div className="content">
-//                 <p>{props.p}</p>
-//                 <ul className="actions">
-//                     <li><a href="#one" className="button next scrolly">{props.buttontext}</a></li>
-//                 </ul>
-//                 <Link href={props.linkhref}><a>{props.link}</a></Link>
-//             </div>
-//         </div>
-//     </section>
+export default Banner;

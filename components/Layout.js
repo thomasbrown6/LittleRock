@@ -2,9 +2,10 @@ import Head from "next/head"
 import stylesheet from 'styles/main.scss'
 
 import Header from './Header'
-import Menu from './Menu'
+import SideNav from './SideNav'
 import Contact from './Contact'
 import Footer from './Footer'
+import BtnBottom from "./BtnBottom";
 
 class Layout extends React.Component {
     constructor(props) {
@@ -12,7 +13,8 @@ class Layout extends React.Component {
         this.state = {
             isMenuVisible: false,
             loading: 'is-loading',
-            isSubMenuVisible: false
+            isSubMenuVisible: false,
+            HomePage: false
         }
         this.handleToggleMenu = this.handleToggleMenu.bind(this)
         this.handleHoverMenu = this.handleHoverMenu.bind(this)
@@ -44,10 +46,11 @@ class Layout extends React.Component {
 
     render() {
         return (
-            <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+            <div>
                 <Head>
                     <title>Little Rock A.M.E. Zion</title>
                     <meta name="description" content="Little Rock A.M.E. Zion Church" />
+                    <meta  name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                     <link href="/static/css/skel.css" rel="stylesheet" />
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
@@ -55,18 +58,48 @@ class Layout extends React.Component {
                     rel="stylesheet"
                     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
                     integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-                    crossorigin="anonymous"
+                    crossOrigin="anonymous"
                     />
+                    <link rel="stylesheet" href="css/blueimp-gallery.min.css"/>
+                    <script src="js/blueimp-gallery.min.js"></script>
+
+                    <link href={require("../static/images/logo2.png")} rel="shortcut icon" />
+                    <link
+                    href={require("../static/images/logo2.png")}
+                    rel="apple-touch-icon-precomposed"
+                    />
+                    <link
+                    href={require("../static/images/logo2.png")}
+                    sizes="114x114"
+                    rel="apple-touch-icon-precomposed"
+                    />
+                    <link
+                    href={require("../static/images/logo2.png")}
+                    sizes="72x72"
+                    rel="apple-touch-icon-precomposed"
+                    />
+                    <link
+                    href={require("../static/images/logo2.png")}
+                    sizes="144x144"
+                    rel="apple-touch-icon-precomposed"
+                    />
+
+                    
+
                 </Head>
-                <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+                    <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+                    <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
-                <div id="wrapper">
-                    <Header onToggleMenu={this.handleToggleMenu} />
-                    {this.props.children}
-                    <Footer />
+                    <div id="wrapper">
+                        <Header onToggleMenu={this.handleToggleMenu} />
+                        {this.props.children}
+                        {this.props.HomePage == null && (
+                        <BtnBottom/>
+                        )}
+                        <Footer />
+                    </div>
+                    <SideNav closeMenu={this.handleToggleMenu} onToggleMenu={this.handleToggleMenu} onHoverMenu={this.handleHoverMenu} />
                 </div>
-                <Menu onToggleMenu={this.handleToggleMenu} onHoverMenu={this.handleHoverMenu} />
-
             </div>
         )
     }

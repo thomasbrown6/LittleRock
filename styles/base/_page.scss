@@ -24,7 +24,6 @@
 		}
 
 	body {
-		background: _palette(bg);
 
 		// Prevents animation/transition "flicker" on page load.
 		// Automatically added/removed by js/main.js.
@@ -39,4 +38,34 @@
 
 	span.bold {
 		font-weight: bold;
+	}
+
+	.row {
+		margin: 0;
+	}
+
+	.center {
+		margin: 0 auto;
+	}
+
+	
+
+	a {
+		transition: color 0.2s, background 0.2s, border-color 0.2s;
+	}
+
+	@media (min-width: 1200px) {
+		.container {
+			max-width: 1270px;
+		}
+	}
+
+	html {
+		overflow: hidden;
+		height: 100%;
+	}
+	
+	body {
+		height: 100%;
+		overflow: auto;
 	}

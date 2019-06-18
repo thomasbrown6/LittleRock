@@ -25,6 +25,7 @@
 		weight:				300,
 		weight-bold:		600,
 		letter-spacing:		0.025em,
+		letter-spacing-sub:		0.15em,
 		letter-spacing-alt:	0.25em
 	);
 
@@ -33,9 +34,11 @@
 		bg:					black,
 		bg-alt:				#2a2f4a,
 		fg:					#ffffff,
+		font2:					black,
 		fg-bold:			#ffffff,
-		primary:			#660000,
-		secondary:			#ffb61e,
+		primary:			#561211, //#660000,
+		primary-light:			#a50101,
+		secondary:			#c09b2b, //#ffb61e,
 		fg-light:			rgba(244,244,255,0.2),
 		border:				rgba(212,212,255,0.1),
 		border-bg:			rgba(212,212,255,0.035),
@@ -46,5 +49,11 @@
 		accent3:			#ec8d81,
 		accent4:			#e7b788,
 		accent6:			#87c5a4,
-		accent7:			rgba(20, 20, 20, 0.3)
+		accent7:			rgba(20, 20, 20, 0.3),
+		accent8:			gray
 	);
+
+	// Logo.
+	$image: (
+		logo2: "../../static/images/logo2.png"
+	)

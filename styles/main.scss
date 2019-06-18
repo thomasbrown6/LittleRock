@@ -27,6 +27,8 @@
 		min-smedium: '(min-width: 1122px)'
 	));
 
+
+
 	@include skel-layout((
 		reset: 'full',
 		boxModel: 'border',
@@ -73,6 +75,12 @@
 	@import 'components/tiles';
 	@import 'components/contact-method';
 	@import 'components/spotlights';
+	@import 'components/roundbutton';
+	@import 'components/dropdownmenu';
+	@import 'components/sidemenu';
+	@import 'components/sidepanel';
+	@import 'components/card';
+	
 
 // Layout.
 
@@ -80,11 +88,15 @@
 	@import 'layout/banner';
 	@import 'layout/banner2';
 	@import 'layout/main';
+	@import 'layout/secondary';
 	@import 'layout/contact';
 	@import 'layout/footer';
 	@import 'layout/wrapper';
-	@import 'layout/menu';
+	@import 'layout/sidenav';
 	@import 'layout/menu2';
+	@import 'layout/breadcrumb';
+	@import 'layout/global';
+	@import 'layout/mobileview';
 
 // Custom.
-	@import "react-alice-carousel/src/alice-carousel.scss";
+@import "node_modules/react-image-gallery/styles/scss/image-gallery";

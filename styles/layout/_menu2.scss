@@ -36,6 +36,7 @@
         display: inherit;
         letter-spacing: normal;
         padding-left: 92px;
+        white-space: nowrap;
 
         li {
             padding: 0 20px;
@@ -69,5 +70,42 @@
        }
     }
 
+    @include breakpoint(small) {
+        ul.top-menu {
+            left: 0;
+            list-style: none;
+            font-size: 0.7em;
+            display: inherit;
+            letter-spacing: normal;
+            padding-left: 0;
+            white-space: nowrap;
     
+            li {
+                padding: 0 4px;
+                >a {
+                    border: none;
+                    color: _palette(primary);
+                }
+                > a:hover {
+                    color: black!important;
+                }
+            }
+        }
+
+        ul.icons {
+            position: relative;
+            float: right;
+            color: _palette(primary);
+    
+            li {
+                padding: 0 8px;
+           }
+        }
+    }
+}
+
+@include breakpoint(small) {
+    #wrapper {
+        padding-top: 0;
+    }
 }
