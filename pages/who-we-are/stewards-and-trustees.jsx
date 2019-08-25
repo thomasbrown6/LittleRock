@@ -10,7 +10,8 @@ export default () => (
       <Banner
         id="banner"
         Breadcrumb1="HOME"
-        image={null}
+        image={require("../../static/images/LR-WebPage-OurStaffNW_vrt.jpg")}
+        headerText="Stewards and Trustees"
         tag1="a"
         href1="/"
         Breadcrumb2="WHO WE ARE"

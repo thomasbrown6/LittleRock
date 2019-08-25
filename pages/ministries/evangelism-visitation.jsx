@@ -10,8 +10,9 @@ export default () => (
     <div>
       <Banner
         id="banner"
-        image={require("../../static/images/image-mens-ministry.jpg")}
+        image={require("../../static/images/LR-WebPage-AboutUsNW_vrt.jpg")}
         Breadcrumb1="HOME"
+        headerText="EVANGELISM & VISITATION"
         tag1="a"
         href1="/"
         Breadcrumb2="Ministries"
@@ -28,11 +29,11 @@ export default () => (
               <Col xs={12}>
                 <div className="left">
                   <header className="major">
-                    <h1 className="left">EVANGELISM & VISITATION</h1>
+                    <h1 className="">EVANGELISM & VISITATION</h1>
                     <img
                       className="header-image"
                       id="churchimg3"
-                      src={require("../../static/images/image-ambass.jpg")}
+                      src={require("../../static/images/church4.jpg")}
                     />
                   </header>
                 </div>
@@ -40,7 +41,7 @@ export default () => (
             </Row>
             <SideMenu
               title1="Ambassadors for Christ"
-              panelImage1={require("../../static/images/image-prayerstation.jpg")}
+               //panelImage1={require("../../static/images/image-prayerstation.jpg")}
               p1="Ambassadors for Christ shares the Word of God through the ministry of evangelism, both within the church and throughout the community."
               title2="Visitation"
               panelImage2={null}
@@ -54,9 +55,9 @@ export default () => (
               title5="Ministerial Contact"
               p5={
                 <span>
-                  <p>Rev. Dr. Ena Clarke Ramsey</p>
+                  <p></p>
                   <p>
-                    <span className="bold">Email:</span> edalnor@msn.com{" "}
+                    <span className="bold"></span> {" "}
                   </p>
                 </span>
               }

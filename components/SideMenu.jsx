@@ -185,6 +185,166 @@ class SideMenu extends React.Component {
                   </span>
                 </li>
               )}
+              {this.props.title11 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 10
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(10)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title11}
+                  </span>
+                </li>
+              )}
+              {this.props.title12 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 11
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(11)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title12}
+                  </span>
+                </li>
+              )}
+              {this.props.title13 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 12
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(12)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title13}
+                  </span>
+                </li>
+              )}
+              {this.props.title14 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 13
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(13)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title14}
+                  </span>
+                </li>
+              )}
+              {this.props.title15 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 14
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(14)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title15}
+                  </span>
+                </li>
+              )}
+              {this.props.title16 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 15
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(15)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title16}
+                  </span>
+                </li>
+              )}
+              {this.props.title10 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 9
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(9)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title10}
+                  </span>
+                </li>
+              )}
+              {this.props.title10 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 9
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(9)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title10}
+                  </span>
+                </li>
+              )}
+              {this.props.title10 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 9
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(9)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title10}
+                  </span>
+                </li>
+              )}
+              {this.props.title10 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 9
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(9)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title10}
+                  </span>
+                </li>
+              )}
             </ul>
           </div>
         </Col>

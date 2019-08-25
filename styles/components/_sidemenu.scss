@@ -18,7 +18,7 @@
                 display: block;
 
                 &:hover {
-                    color: _palette(secondary);
+                    color: _palette(accent4);
                 }
             }
         }
@@ -33,7 +33,6 @@
                 word-wrap: break-word;
                 cursor: pointer;
                 display: block;
-                color: _palette(secondary);
                 padding: 10px 12px 10px 12px;
 
         }

@@ -65,7 +65,7 @@ a.link {
     font-family: "trajan-pro-3";
     font-weight: 900;
     letter-spacing: 2px;
-    color: #ffedac;
+    color: _palette(secondary);
     text-shadow: 0px 0px 10px #222;
     position: absolute;
   top: 50%;
@@ -115,4 +115,22 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 
 .image-gallery-thumbnails {
     display: none;
+}
+
+.wd100 {
+    width: 100%;
+}
+
+a.btn {
+    background: _palette(primary);
+    color: _palette(secondary)!important;
+    font-size: 32px;
+    padding: 0;
+    width: 500px;
+    p {
+    }
+}
+
+section#two {
+			background: _palette(secondary)!important;
 }

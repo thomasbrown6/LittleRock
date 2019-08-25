@@ -11,6 +11,7 @@ export default () => (
       <Banner
         id="banner"
         Breadcrumb1="HOME"
+        headerText="Photo Gallery"
         tag1="a"
         href1="/"
         Breadcrumb2="GET CONNECTED"
@@ -34,7 +35,7 @@ export default () => (
                 </Row>
                 <Row>
                                     <Col xs={12}>
-                                        <div>Photo Gallery</div>
+                                        <div>Photo Gallery Coming Soon</div>
                   </Col>
                 </Row>
               </div>

@@ -11,7 +11,8 @@ export default () => (
       <Banner
         id="banner"
         Breadcrumb1="HOME"
-        image={null}
+        headerText="Tithes & Offerings"
+        image={require("../../static/images/LR-WebPage-GivingNW_vrt.jpg")}
         tag1="a"
         href1="/"
         Breadcrumb2="GET CONNECTED"
@@ -68,12 +69,15 @@ export default () => (
                       of everything… is Holy to the Lord. (Leviticus 27:30)
                     </p>
 
-                    <Link href="#">
-                      <a className="link"
-                        href="https://www.paypal.com/donate/?token=-SKQblJ2CEHgQvB_TUNDYD1mehEMqRMgaK5G5mJzwLEKZ2RkX3DwhBLVmeqKOo3p2-DkBW&country.x=US&locale.x=US"
-                        target="blank">Click to Give Online!</a>
-
-                    </Link>
+                      <div>
+                        Click To Give!
+                        <form action="https://www.paypal.com/cgi-bin/webscr" target="blank" method="post">
+                          <input type="hidden" name="cmd" value="_s-xclick"/>
+                          <input type="hidden" name="hosted_button_id" value="774431"/>
+                          <input name="submit" type="image" src="../../static/images/paypalDonate.jpg" alt="" align="middle" border="0"/>
+                          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+                        </form>
+                      </div>
                   </Col>
                 </Row>
               </div>

@@ -10,7 +10,8 @@ export default () => (
         <div>
           <Banner
             id="banner"
-            image={require("../../static/images/image-mens-ministry.jpg")}
+        image={require("../../static/images/LR-WebPage-OutreachNW_vrt.jpg")}
+        headerText="Adult & Family Life"
             Breadcrumb1="HOME"
             tag1="a"
             href1="/"
@@ -28,7 +29,7 @@ export default () => (
                   <Col xs={12}>
                     <div className="left">
                       <header className="major">
-                        <h1 className="left">ADULT & FAMILY LIFE</h1>
+                        <h1 className="">ADULT & FAMILY LIFE</h1>
                         <img
                         className="header-image"
                         id="churchimg3"
@@ -39,44 +40,46 @@ export default () => (
                   </Col>
                 </Row>
                 <SideMenu
-                  title1="Family Life Ministry"
-                  title2="Singles Ministry"
-                  title3="Adult's in Ministry (AIM)"
-                  title4="Sports & Recreation Ministry"
-                  title5="Marriage Ministry"
-                  title6="Agape Wedding Ministry"
-                  title7="Culinary Ministry"
-                  title8="Ministerial Contact"
-
-                  panelTitle1="Family Life Ministry"
+                  
+                  title1="Athletic Ministry"
+                  panelTitle1="Athletic Ministry"
                   panelImage1="../../static/images/image-mens-ministry.jpg"
-                  p1="Family Life Ministry provides an educational and therapeutic environment to families facing the challenges of christian family living. We use God's Word and family life research to assist families, single-parents, and stepfamilies in building stronger Christian homes."
-                  panelTitle2="Singles Ministry"
+                  p1="To enhance Spiritual Development and Christian Discipline through team and individual sports, focusing on sportsmanship, dedication, teamwork, and discipline. Inclusive of all ages."
+                  
+                  title2="Banner Guild Ministry"
+                  panelTitle2="Banner Guild Ministry"
                   panelImage2={null}
-                  p2="Singles Ministry creates an atmosphere where singles can gather together and deal with the unique issues of singlehood, while purposefully seeking Christ in the areas of worship, discipleship, fellowship and outreach."
-                  panelTitle3="Adult's In Ministry (AIM)"
+                  p2="To provide seasonal liturgical banners for education and beautification of the sanctuary."
+                  
+                  title3="Culinary Ministry"
+                  panelTitle3="Culinary Ministry"
                   panelImage3={null}
-                  p3={"Ministry desgined for adults aged 41-64"}
-                  panelTitle4="Sports & Recreation Ministry"
+                  p3={"To coordinate all meal functions and manage the upkeep of the kitchen of Little Rock."}
+                  
+                  title4="Economic Development Ministry"
+                  panelTitle4="Economic Development Ministry"
                   panelImage4={null}
-                  p4={"Sports Ministry encourages various groups of sports activities, physical exercise, social interaction and spiritual reshaping within the body of Christ."}
-                  panelTitle5="Marriage Ministry"
+                  p4={"Designed to encourage, promote and enhance economic prosperity through entrepreneurial and private business development."}
+                  
+                  title5="Flower Ministry"
+                  panelTitle5="Flower Ministry"
                   panelImage5={null}
-                  p5={"Marriage Ministry promotes and encourages married couples and their families to work toward the ideal in relationships set forth in the Holy Scripture, and provides tools to them for improving their relationship with each other and with Jesus Christ."}
-                  panelTitle6="Agape Wedding Ministry"
+                  p5={"Flower Ministry: To beautify the sanctuary and other areas inside the church with plants and seasonal flowers."}
+                  
+                  title6="Greeters/Announcers/Host/Hostesses Ministry"
+                  panelTitle6="Greeters/Announcers/Host/Hostesses Ministry"
                   panelImage6={null}
-                  p6={"Agape Wedding Ministry ensures the sacredness of the wedding ceremony with spiritually inspired guidelines. The Wedding Coordinators assist in all aspects of planning and fulfilling the matrimonial desires of the bride, groom and family."}
-                  panelTitle7="Culinary Ministry"
+                  p6={"Greeters/Announcers/Host/Hostesses Ministry: To welcome members and register visitors into the church on Sunday mornings and before all special services, to serve as decorum ambassadors for special events held at Little Rock."}
+                  
+                  title7="Historical Society"
+                  panelTitle7="Historical Ministry"
                   panelImage7={null}
-                  p7={"Culinary Ministry glorifies God and serves the community by preparing meals for church sanctioned activities in a manner that demonstrates God's love and care for God's people."}
-                  panelTitle8="Ministerial Contact"
+                  p7={"Historical Society: To collect information and articles for historical purposes."}
+                  
+                  title8="Information Technology Ministry"
+                  panelTitle8="Information Technology Ministry"
                   panelImage8={null}
-                  p8={
-                    <span>
-                      <p>Rev. Dr. Ena Clarke Ramsey</p>
-                      <p><span className="bold">Email:</span> edalnor@msn.com </p>
-                    </span>
-                  }
+                  p8={"Information Technology Ministry: To provide technical support and assistance to the church office and staff."}
 
                 />
               </div>

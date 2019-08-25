@@ -11,6 +11,7 @@ export default () => (
       <Banner
         id="banner"
         Breadcrumb1="HOME"
+        headerText="Times & Directions"
         image={require("../../static/images/church-img2.jpg")}
         tag1="a"
         href1="/"

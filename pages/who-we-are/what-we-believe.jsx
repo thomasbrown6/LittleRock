@@ -9,7 +9,7 @@ export default () => (
     <div>
       <Banner
         id="banner"
-        image={require("../../static/images/header-designed.jpg")}
+        image={require("../../static/images/LR-WebPage-OutreachNW_vrt.jpg")}
         headerText="WHAT WE BELIEVE"
         Breadcrumb1="HOME"
         tag1="a"
@@ -33,7 +33,7 @@ export default () => (
                       <img
                         className="header-image"
                         id="churchimg3"
-                        src={require("../../static/images/church3.jpg")}
+                        src={require("../../static/images/choir-bg.jpg")}
                       />
                     </header>
                     <h3 className="bold">

@@ -10,7 +10,8 @@ export default () => (
         <div>
           <Banner
             id="banner"
-            image={require("../../static/images/image-youth-ministry.jpg")}
+            image={require("../../static/images/LR-WebPage-ChldrnMinNW_vrt.jpg")}
+            headerText="CHILDREN, YOUTH & YOUNG ADULTS"
             Breadcrumb1="HOME"
             tag1="a"
             href1="/"
@@ -28,7 +29,7 @@ export default () => (
                   <Col xs={12}>
                     <div className="left">
                       <header className="major">
-                        <h1 className="left">CHILDREN, YOUTH & YOUNG ADULTS</h1>
+                        <h1 className="">CHILDREN, YOUTH & YOUNG ADULTS</h1>
                         {/* <img
                         className="header-image"
                         id="churchimg3"
@@ -65,8 +66,8 @@ export default () => (
                   panelImage8={null}
                   p8={
                     <span>
-                      <p>Rev. Dr. Ena Clarke Ramsey</p>
-                      <p><span className="bold">Contact:</span> edalnor@msn.com </p>
+                      <p></p>
+                      <p><span className="bold">Contact:</span> </p>
                     </span>
                   }
 

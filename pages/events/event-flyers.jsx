@@ -10,7 +10,9 @@ export default () => (
     <div>
       <Banner
         id="banner"
+        image={require("../../static/images/LR-WebPage-OurStaffNW_vrt.jpg")}
         Breadcrumb1="HOME"
+        headerText="Event Flyers"
         tag1="a"
         href1="/"
         Breadcrumb2="GET CONNECTED"

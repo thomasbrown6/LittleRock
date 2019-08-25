@@ -5,6 +5,8 @@ import Banner from "../../components/Banner";
 import Map from "../../components/Map";
 import { Container, Row, Col } from "react-bootstrap";
 import YouTube from "react-youtube";
+import ReactPlayer from 'react-player'
+import Vimeo from 'react-vimeo';
 
 class WatchOnline extends React.Component {
   constructor(props) {
@@ -57,10 +59,17 @@ class WatchOnline extends React.Component {
                       </Col>
                     </Row>
                     <Row>
-                      <div className="center">
+                      <div className="center wd100">
                         <Col xs={12}>
-                          <YouTube
-                            videoId={"TTLuhF9TRaA"} // defaults -> null
+                        <Vimeo videoId={"https://vimeo.com/events/8770696/videos/194916621"} autoplay={true} />
+                        {/* <iframe src="https://player.vimeo.com/video/2111489" width="100%" height="100%" frameborder="0" title="Live Stream" webkitallowfullscreen mozallowfullscreen allowfullscreen> */}
+                        {/* <iframe src="https://vimeo.com/groups/8770696/videos/194942590" width="100%" height="100%" frameborder="0" title="Live Stream" webkitallowfullscreen mozallowfullscreen allowfullscreen> */}
+                            
+                        {/* </iframe> */}
+                        {/* <ReactPlayer url='https://livestream.com/accounts/2111489/events/8770696' width='100%'  height='100%' playing={true} /> */}
+                          {/* <YouTube
+                            videoId={"pEsNddhZM5w"} // defaults -> null
+                            //videoId={"UCZ3K2j4WbnJ_jqL6Wmqi4mA"} // defaults -> null
                             id={"YoutubePlayer"} // defaults -> null
                             className={"YoutubePlayer center"} // defaults -> null
                             containerClassName={null} // defaults -> ''
@@ -73,7 +82,8 @@ class WatchOnline extends React.Component {
                             // onStateChange={func}              // defaults -> noop
                             // onPlaybackRateChange={func}       // defaults -> noop
                             // onPlaybackQualityChange={func}    // defaults -> noop
-                          />
+                          /> */}
+                          
                         </Col>
                       </div>
                     </Row>

@@ -10,7 +10,8 @@ export default () => (
         <div>
           <Banner
             id="banner"
-            image={require("../../static/images/image-mens-ministry.jpg")}
+            image={require("../../static/images/LR-WebPage-WomenMinNW_vrt.jpg")}
+            headerText="Women's Ministry"
             Breadcrumb1="HOME"
             tag1="a"
             href1="/"
@@ -28,7 +29,7 @@ export default () => (
                   <Col xs={12}>
                     <div className="left">
                       <header className="major">
-                        <h1 className="left">Women's Ministry</h1>
+                        <h1 className="">Women's Ministry</h1>
                         <img
                         className="header-image"
                         id="churchimg3"
@@ -62,8 +63,8 @@ p2="Women's Ministry Council is an umbrella group that unifies all the developme
                   }                  
                   p5={
                     <span>
-                      <p>Rev. Dr. Ena Clarke Ramsey</p>
-                      <p><span className="bold">Email:</span> edalnor@msn.com </p>
+                      <p></p>
+                      <p><span className="bold"></span>  </p>
                     </span>
                   }
 

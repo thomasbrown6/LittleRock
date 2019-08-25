@@ -133,6 +133,8 @@ class Header extends React.Component {
                                 <DropdownMenu
                                     Title_item1="African Methodist Episcopal Zion church Website"
                                     URL_item1="https://amez.org/"
+                                    Title_item2="Watch Live Stream"
+                                    URL_item2="https://livestream.com/littlerockamezion/"
                                 />
                             </div>
 

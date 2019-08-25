@@ -10,7 +10,8 @@ export default () => (
         <div>
           <Banner
             id="banner"
-            image={require("../../static/images/image-mens-ministry.jpg")}
+        image={require("../../static/images/LR-WebPage-MenBoostersNW_vrt.jpg")}
+        headerText="Men's Ministry"
             Breadcrumb1="HOME"
             tag1="a"
             href1="/"
@@ -28,7 +29,7 @@ export default () => (
                   <Col xs={12}>
                     <div className="left">
                       <header className="major">
-                        <h1 className="left">Men's Ministry</h1>
+                        <h1 className="">Men's Ministry</h1>
                         {/* <img
                         className="header-image"
                         id="churchimg3"
@@ -56,8 +57,8 @@ export default () => (
               }
               p4={
                 <span>
-                  <p>Rev. Dr. Ena Clarke Ramsey</p>
-                  <p><span className="bold">Email:</span> edalnor@msn.com </p>
+                  <p></p>
+                  <p><span className="bold"></span>  </p>
                 </span>
               }
                 />

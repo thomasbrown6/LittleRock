@@ -12,6 +12,7 @@ export default () => (
         id="banner"
         Breadcrumb1="HOME"
         image={require("../../static/images/church-img2.jpg")}
+        headerText="Times & Directions"
         tag1="a"
         href1="/"
         Breadcrumb2="WHO WE ARE"

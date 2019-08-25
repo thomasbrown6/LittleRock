@@ -1,41 +1,73 @@
 @media only screen and (max-width: 1130px) {
 
+        /* NAVBAR */
 
-       /* NAVBAR */
+    #menu2 {
+        height: 4.5em;
+        line-height: 2em;
+        font-size: 25px;
+        display: block;
 
-       #menu2 {
-        height: 3em;
-        line-height: 3em;
-        font-size: 32px;
+        .menu2-container {
+            display: block;
+        }
+
+        ul.top-menu {
+            display: flex;
+            width: 100%;
+            text-align: center;
+            padding: 0 70px;
+            margin-bottom: 0;
+
+            li {
+                margin: 0 auto;
+            }
+        }
 
         .spacer {
-            width: 110px;
+            display: none;
+        }
+
+        ul.icons {
+           display: flex;
+           width: 100%;
+           padding: 0 120px;
+           margin-bottom: 0;
+
+           li {
+            margin: 0 auto;
+            }
         }
     }
+
 
     #header {
-        height: 12em;
+        height: 10em;
 
         .logo {
-            top: -1vw;
-            left: 29vw;
-            background-size: 400px 250px;
-            padding: 0 4em;
+            position: relative;
+            margin: 0 auto;
+            background-size: 276px 165px;
+            padding: 0 2.4em;
+            left: 0%;
+            top: 1vw;
+        }
+
+        nav a.menu-link:before, #header nav a.menu-link:after {
+            background-size: 41px 75px;
+            width: 55px;
         }
     }
-
-    #header nav a.menu-link:before, #header nav a.menu-link:after {
-        background-size: 41px 75px;
-        width: 55px;
-    }
-
-    
 
     /* BANNER */
     #banner {
-        height: 600px;
+        height: 500px;
         margin-bottom: -5.75em;
         padding: 5em 0 0em 0;
+
+        img {
+            z-index: -1;
+        }
     }
 
     .breadcrumb-section .breadcrumb-grid .breadcrumb-panel ul.breadcrumb li a,
@@ -43,9 +75,27 @@
         font-size: 16px;
     }
 
+    ul.breadcrumb {
+        display: block;
+        text-align: center;
+        
+        li {
+            width: 100%;
+            text-align: left!important;
+            
+            a, span {
+                margin: 0 auto;
+            }
+        }
+    }
+
     .header-text {
-        font-size: 34px;
+        font-size: 16px;
         word-wrap: normal;
+        display: inline-block;
+        //position: relative;
+        width: 100%;
+       // z-index: 1;
     }
 
 
@@ -58,6 +108,11 @@
         .inner {
             padding-top: 20px;
         }
+    }
+
+    a.btn {
+        width: 200px;
+        font-size: 20px;
     }
 
     /* BUTTON BOTTOM */
@@ -96,20 +151,49 @@
                 transform: rotate(1deg);
                 
             }
+
+            .generous_giving {
+                
+                &::before {
+                    height: 2px;
+                    width: 80%;
+                    margin: 0 auto;
+                    display: block;
+                    bottom: 20px;
+                }
+                &::after {
+                    width: 60%;
+                }
+            }
         }
     }
 
 }
 
 
+/* MEET THE PASTOR */
 
-//     /* NAVBAR */
+.major {
+    text-align: center;
+}
 
-//     #menu2 {
-//         height: 2em;
-//         line-height: 2em;
-//         font-size: 17px;
-//         padding-left: 10px;
+.secondary img#pastor-img {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    margin: 0 auto;
+    height: 17em;
+}
+
+
+
+
+//        /* NAVBAR */
+
+//        #menu2 {
+//         height: 3em;
+//         line-height: 3em;
+//         font-size: 32px;
 
 //         .spacer {
 //             width: 110px;
@@ -117,15 +201,22 @@
 //     }
 
 //     #header {
-//         height: 7em;
+//         height: 12em;
 
 //         .logo {
-//             top: -2vw;
-//             left: 18vw;
-//             background-size: 276px 165px;
-//             padding: 0 2.4em;
+//             top: -1vw;
+//             left: 29vw;
+//             background-size: 400px 250px;
+//             padding: 0 4em;
 //         }
 //     }
+
+//     #header nav a.menu-link:before, #header nav a.menu-link:after {
+//         background-size: 41px 75px;
+//         width: 55px;
+//     }
+
+    
 
 //     /* BANNER */
 //     #banner {
@@ -196,4 +287,6 @@
 //     }
 
 // }
+
+
 

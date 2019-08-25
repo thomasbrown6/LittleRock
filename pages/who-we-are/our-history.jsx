@@ -10,8 +10,8 @@ export default () => (
       <Banner
         id="banner"
         Breadcrumb1="HOME"
-        image={require("../../static/images/image-our-history.jpg")}
-        //headerText="Our History"
+        image={require("../../static/images/LR-WebPage-OurHistoryNW_vrt.jpg")}
+        headerText="Our History"
         tag1="a"
         href1="/"
         Breadcrumb2="WHO WE ARE"
@@ -57,18 +57,9 @@ export default () => (
                       religious life in the city of Mount Vernon belongs to the
                       African Methodist Episcopal Zion congregation.{" "}
                     </p>
-                    <p>
-                      Based on Dr. Spruill’s research, the A.M.E. Zion church
-                      led by Rev. Jacob Thomas, an A.M.E. Zion minister, had a
-                      presence in Mt. Vernon as early as 1868. Greater
-                      Centennial, however, looks to its official founding date
-                      as 1896, when under the leadership of the Rev. W. H. Ely
-                      the groups of members were organized into a church and
-                      Rev. Ely became the first pastor.
-                    </p>
                                         <h2 className="bold">The Pastors of Little Rock A.M.E. Zion Church</h2>
 
-                                        <p className="historylist">Rev. C. H. Williams ( 1899 - 1900 )</p>
+                                        {/* <p className="historylist">Rev. C. H. Williams ( 1899 - 1900 )</p>
                                         <p className="historylist">Rev. George Frances Green ( 1900 - 1901 )</p>
                                         <p className="historylist">Rev. Emory Thomas ( 1901 - 1903 )</p>
                                         <p className="historylist">Rev. R. A. Lye ( 1903-1907 )</p>
@@ -85,7 +76,7 @@ export default () => (
                                         <p className="historylist">Rev. Dr. Clinton Hoggard ( 1967-1968 )</p>
                                         <p className="historylist">Rev. Dr. Belvie Holland Jackson, Jr. ( 1968-1993 )</p>
                                         <p className="historylist">Rev. Dr. W. Darin Moore ( 1993-2012 )</p>
-                                        <p className="historylist">Rev. Dr. Dwayne A. Walker ( 2012-Present )</p>
+                                        <p className="historylist">Rev. Dr. Dwayne A. Walker ( 2012-Present )</p> */}
                                         
 
                   </div>

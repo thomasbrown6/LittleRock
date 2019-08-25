@@ -10,7 +10,7 @@
     @include vendor('display', 'flex');
     //background-color: _palette(bg-alt);
     background-color: _palette(secondary);
-    background-image: linear-gradient(to right, #d7aa2b, white);
+    background-image: linear-gradient(to right, _palette(secondary), white);
     cursor: default;
     font-weight: _font(weight-bold);
     height: 1.5em;

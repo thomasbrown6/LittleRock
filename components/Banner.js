@@ -20,21 +20,21 @@ class Banner extends React.Component {
 
     const slideImages = [
       require('../static/images/church-img2.jpg'),
-      require('../static/images/church-img3.jpg'),
+      require('../static/images/image-watch-online.jpg'),
       require('../static/images/church-img4.jpg')
     ];
 
     const images = [
       {
-        original: require('../static/images/church-img2.jpg')
+        original: require('../static/images/church-img2edited.jpg')
         //thumbnail: 'http://lorempixel.com/250/150/nature/1/',
       },
       {
-        original: require('../static/images/header-designed.jpg')
+        original: require('../static/images/image-watch-online.jpg')
         //thumbnail: 'http://lorempixel.com/250/150/nature/2/'
       },
       {
-        original: require('../static/images/header2-designed.jpg')
+        original: require('../static/images/image-youth-ministry.jpg')
        // thumbnail: 'http://lorempixel.com/250/150/nature/3/'
       }
     ]
