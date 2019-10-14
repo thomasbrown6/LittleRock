@@ -26,15 +26,27 @@ class Banner extends React.Component {
 
     const images = [
       {
-        original: require('../static/images/church-img2edited.jpg')
+        original: require('../static/images/banners/excellence_in_ministry.jpg')
         //thumbnail: 'http://lorempixel.com/250/150/nature/1/',
       },
       {
-        original: require('../static/images/image-watch-online.jpg')
+        original: require('../static/images/banners/god_is_glorified.jpg')
         //thumbnail: 'http://lorempixel.com/250/150/nature/2/'
       },
       {
-        original: require('../static/images/image-youth-ministry.jpg')
+        original: require('../static/images//banners/jesus_is_magnified.jpg')
+       // thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      },
+      {
+        original: require('../static/images//banners/people_are_edified.jpg')
+       // thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      },
+      {
+        original: require('../static/images//banners/faith_is_fortified.jpg')
+       // thumbnail: 'http://lorempixel.com/250/150/nature/3/'
+      },
+      {
+        original: require('../static/images//banners/ministry_is_multiplied.jpg')
        // thumbnail: 'http://lorempixel.com/250/150/nature/3/'
       }
     ]

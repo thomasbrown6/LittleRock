@@ -6,65 +6,53 @@ import { Row, Col } from "react-bootstrap";
 import SideMenu from "../../components/SideMenu";
 
 export default () => (
-      <Layout>
-        <div>
-          <Banner
-            id="banner"
+  <Layout>
+    <div>
+      <Banner
+        id="banner"
         image={require("../../static/images/LR-WebPage-MenBoostersNW_vrt.jpg")}
         headerText="Men's Ministry"
-            Breadcrumb1="HOME"
-            tag1="a"
-            href1="/"
-            Breadcrumb2="Ministries"
-            tag2="a"
-            href2="#"
-            Breadcrumb3="Men's Ministry"
-            tag3="span"
-          />
+        Breadcrumb1="HOME"
+        tag1="a"
+        href1="/"
+        Breadcrumb2="Ministries"
+        tag2="a"
+        href2="#"
+        Breadcrumb3="Men's Ministry"
+        tag3="span"
+      />
 
-          <div className="secondary">
-            <section id="two">
-              <div className="inner">
-                <Row>
-                  <Col xs={12}>
-                    <div className="left">
-                      <header className="major">
-                        <h1 className="">Men's Ministry</h1>
-                        {/* <img
+      <div className="secondary">
+        <section id="two">
+          <div className="inner">
+            <Row>
+              <Col xs={12}>
+                <div className="left">
+                  <header className="major">
+                    <h1 className="">Men's Ministry</h1>
+                    {/* <img
                         className="header-image"
                         id="churchimg3"
                         src={require("../../static/images/church3.jpg")}
                       /> */}
-                      </header>
-                    </div>
-                  </Col>
-                </Row>
-                <SideMenu
-                  title1="Men's Ministry"
-                  title2="Men's Bible Study"
-                  title3="Men's prayer line"
-                  title4="Ministerial Contact"
-                  panelImage1="../../static/images/image-mens-ministry.jpg"
-                  p1="Men's Ministry empowers men to be strong leaders in the Kingdom and the Community through the work of the Holy Sprit."
-                  panelImage2={null}
-                  p2="The Men's Ministry meets every second Saturday of the month at 9am"
-                  panelImage3={null}
-                  p3={
-                    <span>
-                      <p>The Men's Prayer Line dials in every morning</p>
-                      <p><span className="bold">Mon-Fri:</span> 6:15am - 6:30am</p>
-                    </span>
-              }
-              p4={
-                <span>
-                  <p></p>
-                  <p><span className="bold"></span>  </p>
-                </span>
-              }
-                />
-              </div>
-            </section>
+                  </header>
+                </div>
+              </Col>
+            </Row>
+            <SideMenu
+              title1="Men’s Boosters Ministry"
+              panelTitle1="Men’s Boosters Ministry"
+              panelImage1="../../static/images/image-mens-ministry.jpg"
+              p1="Men’s Boosters Ministry: To provide spiritual nurture and develop an atmosphere of Christ-like brotherhood and unity among the men of Little Rock and the community. The ministry seeks through fellowship, study, workshops and prayer to encourage and empower the men of Little Rock in their walk and spiritual development as strong Christian Men."
+
+              title2="Men’s Choir"
+              panelTitle2="Men’s Choir"
+              panelImage2="../../static/images/image-mens-ministry.jpg"
+              p2="Men’s Choir: To provide an opportunity for men to lead and inspire the congregation in worship services through the rendering of diverse forms of sacred music."
+            />
           </div>
-        </div>
-      </Layout>
-    );
+        </section>
+      </div>
+    </div>
+  </Layout>
+);

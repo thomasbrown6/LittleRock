@@ -44,65 +44,21 @@ export default () => (
                   <Col xs={10}>
                     <h2>
                       <br />
-                      Types of Membership
+                      Three Ways to Become a Member of the Church:
                     </h2>
-                    <p className="header">Probationary Member</p>
-                    <p>
-                      A person who has made the public declaration to join the
-                      church but has not fulfilled the requirements as set forth
-                      by the AME Zion Church for Membership in Full Connection.
-                    </p>
-                    <p className="header">Member in Full Connection </p>
-                    <p>
-                      Is a member who has completed the required four New Member
-                      classes and has received the Right Hand of Fellowship
-                      before the congregation.
-                    </p>
-                    <p className="mb-0">
-                      As a member in full connection here at Greater Centennial,
-                      your first responsibility is to partner with us to achieve
-                      three goals:
-                    </p>
-                    <ul className="list">
-                      <li className="bold">
-                        Show the LOVE of Christ to all. Seek to become more like
-                        Christ. Tell people about Christ.
-                      </li>
-                      <li className="bold">
-                        Show the POWER of Christ by assisting members of the
-                        congregation and community. Our deeds are a
-                        demonstration of our faith in a mighty God.
-                      </li>
-                      <li className="bold">
-                        Show the GLORY of Christ by making the church a place
-                        where God is placed at the forefront of all that we do.
-                      </li>
-                    </ul>
-
-                    <p className="header">What does Membership mean?</p>
-                    <p className="mb-0">
-                      <span className="bold">
-                        As a Member we expect you to love and be loved. The
-                        motivation for all your actions should be love.{" "}
-                      </span>{" "}
-                      We define love as seeking the highest good for others. As
-                      a member you are expected to:{" "}
-                    </p>
-                    <ul className="list">
-                      <li>Grow in the Spirit Filled Life</li>
-                      <li>Belief in the Gospel of Jesus Christ</li>
-                      <li>Read and study the Bible</li>
-                      <li>Meditate on the Word of God</li>
-                      <li>Regularly attend worship services</li>
-                      <li>Reflect the glory of God in your lifestyle and attitude</li>
-                      <li>Tithe and give offerings both systematically and cheerfully</li>
-                      <li>Use your spiritual gifts in ministry</li>
-                      <li>Share your faith with others</li>
-                      <li>Respect church doctrine and authority</li>
-                      <li>Live in harmony with one another</li>
-                      <li>Be receptive to pastoral leadership</li>
-                    </ul>
-                    <Link href="/ministries/adult-family-life"><a className="link">Click here to Get Connected with our Ministries</a></Link>
+                    <p className="header">1. PROFESSION OF FAITH</p>
+                    <br/>
+                    <p className="header">2. THE RE-AFFIRMATION OF FAITH</p>
+                    <br/>
+                    <p className="header">3. LETTER OF TRANSFER</p>
+                    <br/>
+                    <p><span className="bold">ITS MEANING AND PURPOSE:</span> When you walked up the aisle, stood before the altar and made your vow to God in the presence of the congregation, you took the most solemn obligation of your life. By joining the church, you became a part of the body of Christ.</p>
+                    <p><span className="bold">CONDITION OF MEMBERSHIP:</span> “There is only one condition previously required of these societies. A desire to flee from wrath and to be saved from their sins. But wherever this is really fixed in the soul, it will be shown by its fruits.” (A.M.E. Zion Discipline).</p>
+                    <p><span className="bold">STEPS TO BE TAKEN:</span> In order to provide each new member to Methodism an opportunity to make certain of his/her decision to join our denomination, let us make an effort to train him/ her in our doctrine. Let great care be taken in receiving persons on probation and let no one be so received as enrolled who does not give satisfactory evidence of his/her desire to “flee the wrath to come and to be saved from his/her sins.” Probation should last no longer than six (6) months.</p>
+                    <p><span className="bold">ADMISSION INTO FULL CONNECTION:</span> A probationer may be admitted into full membership providing he/she has served out his/her probation, has been baptized, completed the New Members Class, and on examination by the Pastor before the church as required by the Discipline, given satisfactory assurance both of the correctness of his/her faith and of his/her willingness to observe and keep the rules of the church.  A member in good standing in any other Methodist church, desiring to unite with us, may be received on his/her certificate of membership, and by giving satisfactory answers to the usual questions laid down in our formula for the reception of members and completion of new members orientation.</p>
+                    <p><span className="bold">LETTER OF TRANSFER:</span>  A good Christian will want to belong to a church in the city where he/she lives. Therefore, we advise each person who moves into the city to secure from the Pastor of the former church, a letter of transfer. On presentation of this letter, one who transfers from another A.M.E. Zion Church will be accepted in full connection of our church.</p>
+                    <p><span className="bold">SPIRITUAL DUTIES:</span> Each member is expected to engage in both public and private worship. We recommend the use of devotional material published by the A.M.E. Zion Church, and other Methodist denominations as aids in private worship. We strongly encourage family worship at least once per week. A good member will seek to attend public worship each Sunday. Whenever possible, he/she will attend mid-week bible study, and other church activities. He/she will lose no opportunity to cultivate his/her spiritual life.</p>
+                    
                   </Col>
                   <Col xs={1} />
                 </Row>

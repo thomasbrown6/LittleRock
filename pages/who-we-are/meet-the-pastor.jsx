@@ -10,7 +10,7 @@ export default () => (
       <Banner
         id="banner"
         image={require("../../static/images/LR-WebPage-OurPastorNW_vrt.jpg")}
-        headerText="Meet The Pastor"
+        headerText=""
         Breadcrumb1="HOME"
         tag1="a"
         href1="/"
@@ -29,7 +29,7 @@ export default () => (
                 <Col xs={12}>
                   <div className="left">
                     <header className="major">
-                      <h1>About Our Pastor</h1>
+                      <h1>Meet The Pastor</h1>
                       <img
                         id="pastor-img"
                         src={require("../../static/images/pastor.jpg")}

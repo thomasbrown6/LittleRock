@@ -51,36 +51,32 @@ class Header extends React.Component {
                                 <DropdownMenu
                                     Title_item1="Meet The Pastor"
                                     URL_item1="/who-we-are/meet-the-pastor"
-                                    Title_item2="What We Believe"
-                                    URL_item2="/who-we-are/what-we-believe"
+                                    Title_item2="Mission Statement"
+                                    URL_item2="/who-we-are/mission-statement"
                                     Title_item3="What is the A.M.E. Zion Church?"
                                     URL_item3="/who-we-are/what-is-the-a-m-e-zion-church"
                                     Title_item4="Our History"
                                     URL_item4="/who-we-are/our-history"
                                     Title_item5="Our Staff"
                                     URL_item5="/who-we-are/our-staff"
-                                    Title_item6="Stewards & Trustees"
-                                    URL_item6="/who-we-are/stewards-and-trustees"
-                                    Title_item7="Times & Directions"
-                                    URL_item7="/who-we-are/times-directions"
+                                    Title_item6="Times & Directions"
+                                    URL_item6="/who-we-are/times-directions"
                                 />
                             </div>
 
                             <li className="menu-li"><span onMouseEnter={event => this.handleHover(1)} className="nav-link">Get Connected</span></li>
                             <div id="dropdown1" className={this.state.activeIndex === 1 ? 'submenu-dropdown' : 'hide'} onMouseLeave={event => this.handleLeave(1)} >
                                 <DropdownMenu
-                                    Title_item1="Members"
-                                    URL_item1="/get-connected/members"
-                                    Title_item2="Visitors"
-                                    URL_item2="/get-connected/visitors"
-                                    Title_item3="Tithes & Offerings"
-                                    URL_item3="/get-connected/tithes-offerings"
-                                    Title_item4="Have you said yes to christ?"
-                                    URL_item4="/get-connected/have-you-said-yes-to-christ"
-                                    Title_item5="Times & Directions"
-                                    URL_item5="/get-connected/times-directions"
-                                    Title_item6="Contact Us"
-                                    URL_item6="/get-connected/contact-us"
+                                    Title_item1="Online Giving"
+                                    URL_item1="/get-connected/online-giving"
+                                    Title_item2="Members"
+                                    URL_item2="/get-connected/members"
+                                    Title_item3="Visitors"
+                                    URL_item3="/get-connected/visitors"
+                                    Title_item4="Times & Directions"
+                                    URL_item4="/get-connected/times-directions"
+                                    Title_item5="Contact Us"
+                                    URL_item5="/get-connected/contact-us"
                                 />
                             </div>
 

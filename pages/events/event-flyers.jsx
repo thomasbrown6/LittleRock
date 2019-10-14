@@ -35,45 +35,28 @@ export default () => (
                   </Col>
                 </Row>
                 <Row>
-                  <Col xs={6}> 
-                  <img
+                  <Col xs={12}>
+                    <img
                       className="header-image event-flyers"
-                      src={require("../../static/images/church-img.jpg")}
-                      alt="church image"
-                    />
-                                    </Col>
-                  <Col xs={6}>
-                  <img
-                      className="header-image event-flyers"
-                      src={require("../../static/images/church-img.jpg")}
+                      src={require("../../static/images/flyer.jpg")}
                       alt="church image"
                     />
                   </Col>
-                  <Col xs={6}> 
-                  <img
+                </Row>
+                <Row>
+                  <Col xs={12}>
+                    <img
                       className="header-image event-flyers"
-                      src={require("../../static/images/church-img.jpg")}
-                      alt="church image"
-                    />
-                                    </Col>
-                  <Col xs={6}>
-                  <img
-                      className="header-image event-flyers"
-                      src={require("../../static/images/church-img.jpg")}
+                      src={require("../../static/images/events/IMG_2417.jpg")}
                       alt="church image"
                     />
                   </Col>
-                  <Col xs={6}> 
-                  <img
+                </Row>
+                <Row>
+                  <Col xs={12}>
+                    <img
                       className="header-image event-flyers"
-                      src={require("../../static/images/church-img.jpg")}
-                      alt="church image"
-                    />
-                                    </Col>
-                  <Col xs={6}>
-                  <img
-                      className="header-image event-flyers"
-                      src={require("../../static/images/church-img.jpg")}
+                      src={require("../../static/images/events/IMG_2418.jpg")}
                       alt="church image"
                     />
                   </Col>

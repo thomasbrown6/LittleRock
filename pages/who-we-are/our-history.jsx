@@ -32,53 +32,57 @@ export default () => (
                       <h1>OUR HISTORY</h1>
                     </header>
                     <p>
-                      In 1896 a small group of people met in the home of Mrs.
-                      Anna Green, who lived on the corner of Eleventh Avenue and
-                      Eastchester Lane, for the purpose of organizing a colored
-                      Methodist church in Mount Vernon, New York, thus marking
-                      the founding of the first A.M.E. Zion Church in the city
-                      of Mount Vernon. Those present at the meeting were
-                      Brothers A. Lyle, Allen Banks, William Keeler, Charles
-                      Johnson, J. B. Underhill, Sisters W. H. Ely, R. A. Lyle,
-                      Maria Landrine, Nellie Thompson, Elizabeth Manigault and
-                      Anna Green. The first meeting place as a church was in a
-                      frame building on the corner of South Ninth Avenue and
-                      West Third Street. However documented evidence including
-                      information revealed in the publication, A Time to
-                      Remember authored by Mount Vernon historian, educator and
-                      cleric, Dr. Larry H. Spruill, indicates that the A.M.E.
-                      Zion Church was the first, independently organized African
-                      American religious group in Mt. Vernon. Dr. Spruill
-                      writes; “The fundraising drive to build an A.M.E. Zion
-                      Church was documented in The Chronicle a village
-                      newspaper, from 1869 – 1892 in descriptive announcements
-                      and articles on Black community life.” These facts allow
-                      him to conclude that, “the honor of pioneering Black
-                      religious life in the city of Mount Vernon belongs to the
-                      African Methodist Episcopal Zion congregation.{" "}
+                      The history of Little Rock A.M.E. Zion Church is so grand
+                      and glorious that the essence of its greatness can never
+                      be fully captured or retold. So many courageous, dedicated
+                      and visionary men and women have made immeasurable
+                      contributions to this bright “Star of Zion” that only
+                      small highlights can be shared. Little Rock A.M.E. Zion
+                      Church was organized in the backyard of Mrs. Mary Ann
+                      Hunter after pulling out from the old Clinton Chapel
+                      A.M.E. Zion Church in 1884. The first church in reality
+                      was a little house sitting on a rock, hence the name,
+                      Little Rock.{" "}
                     </p>
-                                        <h2 className="bold">The Pastors of Little Rock A.M.E. Zion Church</h2>
-
-                                        {/* <p className="historylist">Rev. C. H. Williams ( 1899 - 1900 )</p>
-                                        <p className="historylist">Rev. George Frances Green ( 1900 - 1901 )</p>
-                                        <p className="historylist">Rev. Emory Thomas ( 1901 - 1903 )</p>
-                                        <p className="historylist">Rev. R. A. Lye ( 1903-1907 )</p>
-                                        <p className="historylist">Rev. N. E. Ray ( 1907-1908 )</p>
-                                        <p className="historylist">Rev. N. E. Collins ( 1908-1912 )</p>
-                                        <p className="historylist">Rev. Johnson ( 1912-1913 )</p>
-                                        <p className="historylist">Rev. Samuel S. Boyd ( 1913-1924 )</p>
-                                        <p className="historylist">Rev. F. W. Riley ( 1924-1926 )</p>
-                                        <p className="historylist">Rev. James R. White ( 1926-1933 )</p>
-                                        <p className="historylist">Rev. J. H. Tucker ( 1933-1934 )</p>
-                                        <p className="historylist">Rev. Blunt ( 1934-1935 )</p>
-                                        <p className="historylist">Rev. Polk K. Fonvielle ( 1935-1946 )</p>
-                                        <p className="historylist">Rev. Dr. Clinton L. Wilcox, Sr. ( 1946-1967 )</p>
-                                        <p className="historylist">Rev. Dr. Clinton Hoggard ( 1967-1968 )</p>
-                                        <p className="historylist">Rev. Dr. Belvie Holland Jackson, Jr. ( 1968-1993 )</p>
-                                        <p className="historylist">Rev. Dr. W. Darin Moore ( 1993-2012 )</p>
-                                        <p className="historylist">Rev. Dr. Dwayne A. Walker ( 2012-Present )</p> */}
-                                        
-
+                    <p>
+                      The original church property was purchased for a sum of
+                      four hundred and twenty five dollars on May 31, 1884
+                      (corrected deed filed June 10, 1893). In 1906 under the
+                      pastorate of Rev. W.R. Douglas, the frame structure was
+                      moved across Seventh Street. The moving process was so
+                      slow that services and even a funeral were conducted while
+                      the church was in the middle of the street. The brick
+                      edifice, which is now the Little Rock A.M.E. Zion
+                      Community Development Center, was completed in 1911 under
+                      the administration of Rev. Douglas. The edifice was a
+                      blended manifestation of the turn of the century Greek and
+                      Romanesque architectural style. J. M. McMichael, was the
+                      architect of several imposing buildings in this community
+                      including Spirit Square, St. John’s Baptist Church, and
+                      Myers Park Presbyterian Church. The old Little Rock Church
+                      building is a remarkable remainder of an exuberant
+                      expression of faith and commitment of God’s people to
+                      God’s glory. The new Sanctuary and Educational wing were
+                      completed in October 1981. Rev. William White led members
+                      and friends in a reverent and stately procession from the
+                      Old Little Rock Church into the new edifice on Sunday,
+                      December 6, 1981. Clinton E. Gravely, an American of
+                      African descent, was the designer of this building. His
+                      trademark of exposed wood and natural stone is prominent
+                      in the present place of worship. In May 2008, the
+                      groundbreaking celebration for the addition to the Little
+                      Rock campus was held under the pastorate of Dr. Dwayne A.
+                      Walker. Little Rock has been truly blessed with ardent and
+                      eloquent pastors of which two became bishops, Bishop J. C.
+                      Hoggard and Bishop George J. Leake, III. After Bishop
+                      Leake assumed the Episcopacy Rev. William White was
+                      appointed as pastor, erecting the present building. Dr.
+                      James R. Samuel followed Rev. William White making
+                      improvements to the Church and Educational Wing. In 2005
+                      Dr. Dwayne A. Walker was appointed pastor and has regained
+                      possession of the old church building and established
+                      plans to add a Family Life Center to the campus.{" "}
+                    </p>
                   </div>
                 </Col>
               </Row>

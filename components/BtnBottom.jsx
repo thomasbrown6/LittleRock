@@ -8,7 +8,6 @@ const BtnBottom = props => (
         <Link href="/pastors-message">
           <a className="button-bottom">
               <p>Pastor's Message</p>
-              <p>Click Here</p>
           </a>
         </Link>
       </Col>
@@ -16,7 +15,6 @@ const BtnBottom = props => (
         <Link href="/who-we-are/our-staff">
           <a className="button-bottom">
               <p>Our Staff</p>
-              <p>Click Here</p>
           </a>
         </Link>
       </Col>
@@ -24,7 +22,6 @@ const BtnBottom = props => (
         <Link href="/our-boards">
           <a className="button-bottom">
               <p>Our Boards</p>
-              <p>Click Here</p>
           </a>
         </Link>
       </Col>

@@ -40,23 +40,16 @@ export default () => (
               </Col>
             </Row>
             <SideMenu
-              title1="New Members Class"
+              title1="Bread of Life Ministry"
+              panelTitle1="Bread of Life Ministry"
               panelImage1={null}
-              p1="Please check the Sunday Order of Worship and website calendar for class dates. New Members Class teaches what it means to be a new believer in Christ. It also encourages each new member to identify and develop their spiritual gifts and become a member in full connection. There are 4 classes that meet on consecutive Mondays at 7pm. There is also a one-day Fast Track option where all four classes are given on one day."
-               title3="Little Rock A.M.E. Zion Bible School"
-              panelImage3={null}
-              p3="The Community Bible School is a full-day summer program for 5 weeks in July and August. The school has a vision of spiritually equipping our children and youth to cope with the challenges of growing up through: Worship, Prayer, Bible Study, Teamwork, Christian Fellowship, Recreational Activities and Field Trips."              title5="Noon Day Bible Study"
-              panelImage5={null}
-              p5="Every Wednesday at noon, students of the Bible gather together in the sanctuary to be taught about God's plan for our lives. This Bible Study is open to everyone and welcomes all to attend."
-              title6="Ministerial Contact"
-              p6={
-                <span>
-                  <p></p>
-                  <p>
-                    <span className="bold"></span> {" "}
-                  </p>
-                </span>
-              }
+              p1="Bread of Life Ministry: To promote healthy, nutritional meals to transient individuals and Senior Citizens of the community."
+
+               title2="Heaven’s Storehouse Ministry"
+               panelTitle2="Heaven’s Storehouse Ministry"
+              panelImage2={null}
+              p2="Heaven’s Storehouse Ministry: To provide clothing and food to those in need and with shelter when needed."
+             
             />
           </div>
         </section>

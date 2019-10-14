@@ -13,11 +13,6 @@ export default () => (
         image1={require("../static/images/church-img2.jpg")}
         image2={require("../static/images/church-img2.jpg")}
         image3={require("../static/images/church-img2.jpg")}
-        // title="Little Rock"
-        // p=""
-        // buttontext="WATCH NOW"
-        // link="VIEW MORE SERMONS"
-        // linkhref="/sermons"
       />
 
       <div id="main">
@@ -35,7 +30,7 @@ export default () => (
                   <div className="generous_section">
                     <div className="generous_text">
                       <p className="generous_giving">
-                        <span>G</span>ive <span>T</span>oday
+                        <span>E</span>xcellence in  <span>M</span>inistry
                     </p>
                     <img src="../static/images/decoration.png"/>
                   </div>
@@ -45,7 +40,7 @@ export default () => (
                 <form action="https://www.paypal.com/cgi-bin/webscr" target="blank" method="post">
                   <input type="hidden" name="cmd" value="_s-xclick"/>
                   <input type="hidden" name="hosted_button_id" value="774431"/>
-                  <input name="submit" type="image" src="../static/images/clickhertogive.PNG" alt="" align="middle" border="0"/>
+                  <input className="btn-clickhere" name="submit" type="image" src="../static/images/clickhertogive.PNG" alt="" align="middle" border="0"/>
                   <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
                 </form>
                 </div>

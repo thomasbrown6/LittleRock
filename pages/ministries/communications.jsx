@@ -40,41 +40,15 @@ export default () => (
               </Col>
             </Row>
             <SideMenu
-              title1="Video & Sound"
+              title1="Audio/Visual Ministry"
+              panleTitle="Audio/Visual Ministry"
               panelImage1="../../static/images/image-media.jpg"
-              p1={
-                <span>
-                  <p>
-                    Video & Sound Ministry reaches people for Christ through the
-                    use of modern technology – Computer presentation software
-                    and hardware; Computer graphics; HD video recording, editing
-                    and projection; Audio magnification, mixing and editing;
-                    Social media; Writing and editing for articles and marketing
-                    pieces; and more, as technology grows and develops.
-                  </p>
-                  <ul>
-                    <li>Audio Ministry</li>
-                    <li>Graphic Arts</li>
-                    <li>Media Sales</li>
-                    <li>Public Relations</li>
-                    <li>Video</li>
-                    <li>Website</li>
-                    <li>Writers</li>
-                  </ul>
-                </span>
-              }
-              title2="Photography"
+              p1={"Audio/Visual Ministry: To enhance the worship experience through amplification of the music and the preached word, to record and make available audio tapes & CD’s and DVD’s for all services."}
+
+              title2="Public Relations Ministry"
+              panelTitle2="Public Relations Ministry"
               panelImage2={"../../static/images/image-photo.jpg"}
-              p2="The Photography ministry provides a timeless image of the heart and presence of God through candid moments of praise & worship. The photography ministry records the history of the church and assists in the visual messages through graphic design and social media."
-              title3="Ministerial Contact"
-              p3={
-                <span>
-                  <p></p>
-                  <p>
-                    <span className="bold"></span> {" "}
-                  </p>
-                </span>
-              }
+              p2="Public Relations Ministry: To serve as a liaison between the Church and the community to keep the Church informed of events and opportunities in the community, and to keep the community informed of events and opportunities presented by the church."
             />
           </div>
         </section>

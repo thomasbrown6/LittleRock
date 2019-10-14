@@ -40,27 +40,22 @@ export default () => (
               </Col>
             </Row>
             <SideMenu
-              title1="Ambassadors for Christ"
+              title1="Canvas Ministry"
+              panelTitle1="Canvas Ministry"
                //panelImage1={require("../../static/images/image-prayerstation.jpg")}
-              p1="Ambassadors for Christ shares the Word of God through the ministry of evangelism, both within the church and throughout the community."
-              title2="Visitation"
-              panelImage2={null}
-              p2="Visitation Ministry seeks to create a connection with those who find themselves unable to leave their homes due to illnes or disability and those members who have been hospitalized due to sudden illness."
-              title3="Care-Ring"
-              panelImage3={null}
-              p3="Care-Ring Ministry engages our congregation through telephone calls of words of encouragement and prayer to members, guests, those that may be sick and shut in, and those that are in a season of bereavement."
-              title4="Prision Ministry"
-              panelImage4={null}
-              p4="Prison Ministry extends the message of hope and love to men and women who are incarcerated through preaching, scripture, prayer and visitation."
-              title5="Ministerial Contact"
-              p5={
-                <span>
-                  <p></p>
-                  <p>
-                    <span className="bold"></span> {" "}
-                  </p>
-                </span>
-              }
+               p1="Canvas Ministry: To help promote activities outside the doors of the church within the surrounding community."
+
+               title2="Evangelism Ministry"
+               panelTitle2="Evangelism Ministry"
+                p2="Evangelism Ministry: To promote the spirit and mission of the ministry of our Lord and to employ the most effective means to accomplish the chief end of the gospel - the salvation of souls; and that the church may more vigorously apply the moral and spiritual agencies by which men are served from sin and trained for heaven."
+                
+                title3="Prison Ministry"
+                panelTitle3="Prison Ministry"
+              p3="Prison Ministry: To provide ministry to those who are incarcerated, were incarcerated and their families."
+              
+              title4="Street Ministry"
+              panelTitle4="Street Ministry"
+               p4="Street Ministry: To spread the love of God through His word and provide supplies to individuals who may be in need."
             />
           </div>
         </section>

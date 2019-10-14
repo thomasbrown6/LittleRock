@@ -225,32 +225,19 @@ export default () => (
 
             <CardWrapper>
               <Card
-                image={"../../static/images/bios/rev_freddie_albany.jpg"}
-                header="Rev. Freddie D. Albany, BS, MA"
-                subhead="Rev. Freddie D. Albany, BS, MA
-                Minister of Youth"
-                email="falbany81@gmail.com"
+                image={"../../static/images/bios/glain.jpg"}
+                header="Glain Lewis, Administrative Assistant"
+                subhead="Glain Lewis, Administrative Assistant"
               >
                 <p>
-                  Rev. Freddie D. Albany was born and raised in Hendersonville,
-                  North Carolina. He was educated in the Henderson County School
-                  System and went on to further his studies at Appalachian State
-                  University, where he obtained his Bachelor of Science degree
-                  in Communications and later at Gardner-Webb University,
-                  obtaining his Master of Arts degree in English Literature.
-                  Rev. Albany currently serves as the Minister of Youth at
-                  Little Rock A.M.E. Zion Church and he is a former member of
-                  the Southeastern Regional YACM Steering Committee. Rev.
-                  Freddie Albany is married to Kenielle Erica Albany and is the
-                  father of two sons, Devin Alexander Neal and Freddie Morris
-                  Albany.
-                </p>
-                <p>
-                  {" "}
-                  Affiliations/Membership in Other Organizations: Program
-                  Coordinator of the Academic Success Center and English faculty
-                  at Forsyth Technical Community College; Omega Psi Phi
-                  Fraternity, Incorporated.
+                  Glain Dell Haynes-Lewis, a native of Dorchester, South
+                  Carolina. Currently serve as the Administrative Assistant to
+                  the Pastor. Glain is a member of the Board of Deaconess, a
+                  Class Leader, a member of the Culinary Ministry, and a
+                  recipient of the 2017 “Excellence in Ministry Award,” Glain
+                  Haynes Lewis has a Bachelor of Science degree. She is the
+                  mother of two children, Dr Marquita Wenonah Lewis-Thames
+                  (Anthony) and T. William Lewis.
                 </p>
               </Card>
             </CardWrapper>

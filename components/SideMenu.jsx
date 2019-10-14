@@ -281,67 +281,83 @@ class SideMenu extends React.Component {
                   </span>
                 </li>
               )}
-              {this.props.title10 != null && (
+              {this.props.title17 != null && (
                 <li
                   className={
-                    this.state.activeIndex === 9
+                    this.state.activeIndex === 16
                       ? "sidemenu-item-active"
                       : "sidemenu-item"
                   }
                 >
                   <span
-                    onClick={event => this.handleClick(9)}
+                    onClick={event => this.handleClick(16)}
                     className="sidemenu-item-link"
                   >
-                    {this.props.title10}
+                    {this.props.title17}
                   </span>
                 </li>
               )}
-              {this.props.title10 != null && (
+              {this.props.title18 != null && (
                 <li
                   className={
-                    this.state.activeIndex === 9
+                    this.state.activeIndex === 17
                       ? "sidemenu-item-active"
                       : "sidemenu-item"
                   }
                 >
                   <span
-                    onClick={event => this.handleClick(9)}
+                    onClick={event => this.handleClick(17)}
                     className="sidemenu-item-link"
                   >
-                    {this.props.title10}
+                    {this.props.title18}
                   </span>
                 </li>
               )}
-              {this.props.title10 != null && (
+              {this.props.title19 != null && (
                 <li
                   className={
-                    this.state.activeIndex === 9
+                    this.state.activeIndex === 18
                       ? "sidemenu-item-active"
                       : "sidemenu-item"
                   }
                 >
                   <span
-                    onClick={event => this.handleClick(9)}
+                    onClick={event => this.handleClick(18)}
                     className="sidemenu-item-link"
                   >
-                    {this.props.title10}
+                    {this.props.title19}
                   </span>
                 </li>
               )}
-              {this.props.title10 != null && (
+              {this.props.title20 != null && (
                 <li
                   className={
-                    this.state.activeIndex === 9
+                    this.state.activeIndex === 19
                       ? "sidemenu-item-active"
                       : "sidemenu-item"
                   }
                 >
                   <span
-                    onClick={event => this.handleClick(9)}
+                    onClick={event => this.handleClick(19)}
                     className="sidemenu-item-link"
                   >
-                    {this.props.title10}
+                    {this.props.title20}
+                  </span>
+                </li>
+              )}
+              {this.props.title21 != null && (
+                <li
+                  className={
+                    this.state.activeIndex === 20
+                      ? "sidemenu-item-active"
+                      : "sidemenu-item"
+                  }
+                >
+                  <span
+                    onClick={event => this.handleClick(20)}
+                    className="sidemenu-item-link"
+                  >
+                    {this.props.title21}
                   </span>
                 </li>
               )}
@@ -381,6 +397,39 @@ class SideMenu extends React.Component {
             panelTitle10={this.props.title10}
             panelImage10={this.props.panelImage10}
             p10={this.props.p10}
+            panelTitle11={this.props.title11}
+            panelImage11={this.props.panelImage11}
+            p11={this.props.p11}
+            panelTitle12={this.props.title12}
+            panelImage12={this.props.panelImage12}
+            p12={this.props.p12}
+            panelTitle13={this.props.title13}
+            panelImage13={this.props.panelImage13}
+            p13={this.props.p13}
+            panelTitle14={this.props.title14}
+            panelImage14={this.props.panelImage14}
+            p14={this.props.p14}
+            panelTitle15={this.props.title15}
+            panelImage15={this.props.panelImage15}
+            p15={this.props.p15}
+            panelTitle16={this.props.title16}
+            panelImage16={this.props.panelImage16}
+            p16={this.props.p16}
+            panelTitle17={this.props.title17}
+            panelImage17={this.props.panelImage17}
+            p17={this.props.p17}
+            panelTitle18={this.props.title18}
+            panelImage18={this.props.panelImage18}
+            p18={this.props.p18}
+            panelTitle19={this.props.title19}
+            panelImage19={this.props.panelImage19}
+            p19={this.props.p19}
+            panelTitle20={this.props.title20}
+            panelImage20={this.props.panelImage20}
+            p20={this.props.p20}
+            panelTitle21={this.props.title21}
+            panelImage21={this.props.panelImage21}
+            p21={this.props.p21}
           />
         </Col>
       </Row>

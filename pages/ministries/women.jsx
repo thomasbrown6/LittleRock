@@ -6,72 +6,53 @@ import { Row, Col } from "react-bootstrap";
 import SideMenu from "../../components/SideMenu";
 
 export default () => (
-      <Layout>
-        <div>
-          <Banner
-            id="banner"
-            image={require("../../static/images/LR-WebPage-WomenMinNW_vrt.jpg")}
-            headerText="Women's Ministry"
-            Breadcrumb1="HOME"
-            tag1="a"
-            href1="/"
-            Breadcrumb2="Ministries"
-            tag2="a"
-            href2="#"
-            Breadcrumb3="Women's Ministry"
-            tag3="span"
-          />
+  <Layout>
+    <div>
+      <Banner
+        id="banner"
+        image={require("../../static/images/LR-WebPage-WomenMinNW_vrt.jpg")}
+        headerText="Women's Ministry"
+        Breadcrumb1="HOME"
+        tag1="a"
+        href1="/"
+        Breadcrumb2="Ministries"
+        tag2="a"
+        href2="#"
+        Breadcrumb3="Women's Ministry"
+        tag3="span"
+      />
 
-          <div className="secondary">
-            <section id="two">
-              <div className="inner">
-                <Row>
-                  <Col xs={12}>
-                    <div className="left">
-                      <header className="major">
-                        <h1 className="">Women's Ministry</h1>
-                        <img
-                        className="header-image"
-                        id="churchimg3"
-                        src={require("../../static/images/church3.jpg")}
-                      />
-                      </header>
-                    </div>
-                  </Col>
-                </Row>
-                <SideMenu
-                  title1="Women’s Home and Overseas Missionary Society"
-                  title2="Women’s Ministries Council"
-                  title3="Women's Bible Study"
-                  title4="Women's Prayer Line"
-                  title5="Ministerial Contact"
+      <div className="secondary">
+        <section id="two">
+          <div className="inner">
+            <Row>
+              <Col xs={12}>
+                <div className="left">
+                  <header className="major">
+                    <h1 className="">Women's Ministry</h1>
+                    <img
+                      className="header-image"
+                      id="churchimg3"
+                      src={require("../../static/images/church3.jpg")}
+                    />
+                  </header>
+                </div>
+              </Col>
+            </Row>
+            <SideMenu
+              title1="Lady Golfing Ministry"
+              panelTitle1="Lady Golfing Ministry"
+              panelImage1={null}
+              p1="Lady Golfing Ministry: To enhance Spiritual Development and Christian Discipline through team and individual golfing, focusing on sportsmanship, and teamwork among the ladies."
 
-                  panelImage1="../../static/images/image-mens-ministry.jpg"
-                  p1="Women's Home and Overseas Missionary Society teaches the concepts of Christian missions and provides experiences for participation in mission work and its ministries; exemplifies the principles of Christian living; promotes the cause of World Evangelism; and serves as a financial support system to under gird the world mission outreach of the A.M.E. Zion Church at home and overseas."
-                  panelImage2={null}
-p2="Women's Ministry Council is an umbrella group that unifies all the development, outreach, special events and reciprocal communication."
-                            panelImage3={null}
-                            p3="The Women's Bible Study meets every second Saturday of the month at 10am."
-                  panelImage4={null}
-                  p4={
-                    <span>
-                      <p>The Women's Prayer Line dials in every morning</p>
-                      <p><span className="bold">Mon-Fri:</span> 6:00am - 6:15am </p>
-                      <p><span className="bold">Phone:</span> ###-###-#### </p>
-                      <p><span className="bold">Code:</span> #####</p>
-                    </span>
-                  }                  
-                  p5={
-                    <span>
-                      <p></p>
-                      <p><span className="bold"></span>  </p>
-                    </span>
-                  }
-
-                />
-              </div>
-            </section>
+              title2="Women’s Home & Overseas Missionary Society"
+              panelTitle2="Women’s Home & Overseas Missionary Society"
+              panelImage2={null}
+              p2="Women’s Home & Overseas Missionary Society: Women's Home and Overseas Missionary Society teaches the concepts of Christian missions and provides experiences for participation in mission work and its ministries; exemplifies the principles of Christian living; promotes the cause of World Evangelism; and serves as a financial support system to under gird the world mission outreach of the A.M.E. Zion Church at home and overseas."
+            />
           </div>
-        </div>
-      </Layout>
-    );
+        </section>
+      </div>
+    </div>
+  </Layout>
+);
