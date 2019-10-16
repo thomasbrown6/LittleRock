@@ -6,7 +6,7 @@ import Map from "../../components/Map";
 import { Container, Row, Col } from "react-bootstrap";
 import YouTube from "react-youtube";
 import ReactPlayer from 'react-player'
-import Vimeo from 'react-vimeo';
+import Vimeo from 'react-vimeo';<iframe id="ls_embed_1571249302" src="https://livestream.com/accounts/2111489/events/8846899/player?width=960&height=540&enableInfoAndActivity=true&defaultDrawer=feed&autoPlay=true&mute=false" width="960" height="540" frameborder="0" scrolling="no" allowfullscreen> </iframe><script type="text/javascript" data-embed_id="ls_embed_1571249302" src="https://livestream.com/assets/plugins/referrer_tracking.js"></script>
 
 class WatchOnline extends React.Component {
   constructor(props) {
@@ -29,6 +29,7 @@ class WatchOnline extends React.Component {
         autoplay: 1
       }
     };
+
 
     return (
       <Layout>
