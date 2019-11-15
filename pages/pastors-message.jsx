@@ -29,54 +29,54 @@ export default () => (
                     <header className="major">
                       <h1>Our Pastor's Message</h1>
                       <img
-                        id="pastor-img"
-                        src={require("../static/images/pastor.jpg")}
-                        />
-                        <h2>REVEREND DR. DWAYNE ANTHONY WALKER</h2>
+                        id=""
+                        src={require("../static/images/paster2.jpg")}
+                      />
+                      <h2>REVEREND DR. DWAYNE ANTHONY WALKER</h2>
                     </header>
+                    <p>Dear Beloved,</p>
+                    <p>Praise God from Whom all blessings flow!</p>
+
                     <p>
-                      Coming Soon...{" "}
+                      Welcome to the Little Rock A.M.E. Zion Church website. I
+                      am tremendously grateful for the awesome privilege to have
+                      received my 13th appointment as pastor of Little Rock A .M
+                      .E. Zion Church. I recognize the distinction we have as
+                      the flagship church of The Piedmont Episcopal District. I
+                      thank God for using Bishop George E. Battle, Jr. to
+                      entrust me with this wonderful assignment.
                     </p>
                     <p>
-                    </p>
-                    {/* <p>
-                      {" "}
-                      He received the Master of Divinity Degree in 1989 and in
-                      June that year, he was appointed Pastor of Metropolitan
-                      A.M.E. Zion Church in Detroit, Michigan. In November of
-                      1994, Dr. Walker was appointed to serve as Pastor of Jones
-                      Tabernacle A.M.E. Zion Church, Indianapolis, Indiana. In
-                      addition to serving as Pastor of Jones Tabernacle, Dr.
-                      Walker served as Administrator of Kuumba Horizons Child
-                      Development Center. He was also a member of the board of
-                      Celebration of Hope, member of the board of Volunteers of
-                      America and a member of the Advisory Board of United
-                      Negro College Fund. In May 2004, Dr. Walker received the
-                      Doctor of Ministry degree from Wesley Theological
-                      Seminary, Washington, D.C. */}
-                    {/* </p>
-                    <p>
-                      {" "}
-                      In September of 2005, he was appointed as pastor of Little
-                      Rock A.M.E. Zion Church, Charlotte, North Carolina. Dr.
-                      Walker currently serves as a member of The Board of
-                      Trustees of Livingstone College, The Board of Dorothy
-                      Walls Conference and Retreat Center, member of The Black
-                      Political Caucus, The NAACP, the Chairman of the Little
-                      Rock Community Development Corporation, a former member of
-                      the Charlotte Mecklenburg Planning Commission and Vice
-                      Chair of the Charlotte Mecklenburg Community Relations
-                      Committee.
+                      I am absolutely excited about all God continues to show me
+                      regarding the possibilities that are ours if we would only
+                      believe and embrace the vision of "Excellence in
+                      Ministry". I still believe in the components of this
+                      vision. I sincerely believe that this vision will produce
+                      a healthy church. From all we have read concerning the
+                      marks of a healthy church, we certainly fit the
+                      description, but I know there is still much room for
+                      improvement.
                     </p>
                     <p>
-                      {" "}
-                      Dr. Walker is the son of Retired Bishop and Mrs. George
-                      W.C. Walker, Sr. He was married to the late Geneva T.
-                      Moore Walker who God welcomed Mrs. Walker home a few years
-                      ago. He is the proud father of four beautiful daughters,
-                      DeAndra, Dana, Daivene and Deborah. Dr. Walker has one
-                      grandson Dylan Amir and one granddaughter, Meliya Geneva.
-                    </p> */}
+                      It is my intent to do all I can to instruct, inform and
+                      inspire all members and ministries to work together as we
+                      do our part to fulfill the Kingdom objectives of our God.
+                      I am clear in understanding that if we want God to bless
+                      what we do, we must do what He blesses. I am convinced
+                      that if we worship together, pray together, study together
+                      and work together, we will indeed see how we will be "A
+                      Healthy Church becoming Healthier!"
+                    </p>
+                    <p>
+                      I solicit your prayers, support and cooperation as we go
+                      to new and exciting levels striving for "Excellence in
+                      Ministry!" If you are in search of a church home, “Welcome
+                      Home” -- Little Rock would love to be your church and I
+                      would love to be your Pastor!
+                    </p>
+                    <p>Peace and Blessings,</p>
+                    <p>Dr. Dwayne Anthony Walker, Pastor</p>
+
                   </div>
                 </Col>
               </Row>

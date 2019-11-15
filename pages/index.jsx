@@ -40,7 +40,7 @@ export default () => (
                 <form action="https://www.paypal.com/cgi-bin/webscr" target="blank" method="post">
                   <input type="hidden" name="cmd" value="_s-xclick"/>
                   <input type="hidden" name="hosted_button_id" value="774431"/>
-                  <input className="btn-clickhere" name="submit" type="image" src="../static/images/clickhertogive.PNG" alt="" align="middle" border="0"/>
+                  <input className="btn-clickhere" name="submit" type="image" src="../static/images/clickhertogivebtn2.png" alt="" align="middle" border="0"/>
                   <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
                 </form>
                 </div>
