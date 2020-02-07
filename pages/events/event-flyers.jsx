@@ -35,6 +35,24 @@ export default () => (
                   </Col>
                 </Row>
                 <Row>
+                  <Col xs={12}>
+                    <img
+                      className="header-image event-flyers"
+                      src={"../../static/images/events/event2.JPEG"}
+                      alt="church image"
+                    />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={12}>
+                    <img
+                      className="header-image event-flyers"
+                      src={"../../static/images/events/event3.JPEG"}
+                      alt="church image"
+                    />
+                  </Col>
+                </Row>
+                <Row>
                 <Col xs={12}>
                     <img
                       className="header-image event-flyers"
