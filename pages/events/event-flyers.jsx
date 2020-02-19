@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import Layout from "../../components/Layout";
 import Banner from "../../components/Banner";
+import Event from "../../components/Event";
 import Map from "../../components/Map";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -26,69 +27,28 @@ export default () => (
         <section id="two">
           <div className="inner">
             <Container>
-              <div className="left">
-                <Row>
-                  <Col xs={12}>
-                    <header className="major">
-                      <h1>Event Flyers</h1>
-                    </header>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={12}>
-                    <img
-                      className="header-image event-flyers"
-                      src={"../../static/images/events/event2.JPEG"}
-                      alt="church image"
-                    />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={12}>
-                    <img
-                      className="header-image event-flyers"
-                      src={"../../static/images/events/event3.JPEG"}
-                      alt="church image"
-                    />
-                  </Col>
-                </Row>
-                <Row>
-                <Col xs={12}>
-                    <img
-                      className="header-image event-flyers"
-                      src={"../../static/images/events/event1.JPEG"}
-                      alt="church image"
-                    />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={12}>
-                    <img
-                      className="header-image event-flyers"
-                      src={require("../../static/images/flyer.jpg")}
-                      alt="church image"
-                    />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={12}>
-                    <img
-                      className="header-image event-flyers"
-                      src={require("../../static/images/events/IMG_2417.jpg")}
-                      alt="church image"
-                    />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col xs={12}>
-                    <img
-                      className="header-image event-flyers"
-                      src={require("../../static/images/events/IMG_2418.jpg")}
-                      alt="church image"
-                    />
-                  </Col>
-                </Row>
-              </div>
+              <Container>
+                <Container>
+                  <div className="left">
+                    <Row>
+                      <Col xs={12}>
+                        <header className="major">
+                          <h1>Event Flyers</h1>
+                        </header>
+                      </Col>
+                    </Row>
+                    <Event imageurl="../../static/images/events/event6.jpg" />
+                    <Event imageurl="../../static/images/events/event7.jpg" />
+                    <Event imageurl="../../static/images/events/heritage-cultural.jpg" />
+                    <Event imageurl="../../static/images/events/event2.JPEG" />
+                    <Event imageurl="../../static/images/events/event3.JPEG" />
+                    <Event imageurl="../../static/images/events/event1.JPEG" />
+                    <Event imageurl="../../static/images/flyer.jpg" />
+                    <Event imageurl="../../static/images/events/IMG_2417.jpg" />
+                    <Event imageurl="../../static/images/events/IMG_2418.jpg" />
+                  </div>
+                </Container>
+              </Container>
             </Container>
           </div>
         </section>

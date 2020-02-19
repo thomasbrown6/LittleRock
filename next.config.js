@@ -33,6 +33,9 @@ module.exports = withImages({
           {
             loader: "sass-loader",
             options: {
+              sassOptions: {
+                indentedSyntax: true
+            },
               outputStyle: "compressed", // These options are from node-sass: https://github.com/sass/node-sass
               includePaths: ["styles", "node_modules"]
                 .map(d => path.join(__dirname, d))
