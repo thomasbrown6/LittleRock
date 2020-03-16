@@ -35,7 +35,7 @@ module.exports = withImages({
             options: {
               sassOptions: {
                 indentedSyntax: true
-            },
+              },
               outputStyle: "compressed", // These options are from node-sass: https://github.com/sass/node-sass
               includePaths: ["styles", "node_modules"]
                 .map(d => path.join(__dirname, d))
@@ -58,10 +58,11 @@ module.exports = withImages({
   // }
 });
 
-
 // module.exports = withCSS({
 //   cssModules: true,
 //   cssLoaderOptions: {
 //       url: true,
-//   },
+//   },npn
 // });
+
+//"webpack": "^4.42.0"
