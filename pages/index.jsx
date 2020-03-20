@@ -1,11 +1,33 @@
 import Link from "next/link";
-
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import EventBanner from "../components/EventBanner";
 import { Container, Row, Col } from "react-bootstrap";
 
-export default () => (
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
+import { login, loadUser } from "../redux/actions/auth";
+
+const Home = ({}) => {
+  //const getInitialProps({store}) {}
+
+  const [formData, setFormData] = useState({
+    email: "",
+    password: ""
+  });
+
+  const { email, password } = formData;
+
+  const handleInputChange = e =>
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+
+  const handleSubmit = async e => {
+    e.preventDefault();
+    login(email, password);
+  };
+};
+
+return (
   <Layout HomePage={true}>
     <div>
       <Banner
@@ -89,3 +111,15 @@ export default () => (
     </div>
   </Layout>
 );
+
+Home.propTypes = {
+  login: PropTypes.func.isRequired,
+  loadUser: PropTypes.func.isRequired,
+  isAuthenticated: PropTypes.bool
+};
+
+const mapStateToProps = state => ({
+  isAuthenticated: state.auth.isAuthenticated
+});
+
+export default connect(mapStateToProps, { login, loadUser })(Home);
