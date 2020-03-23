@@ -37,6 +37,7 @@ export default () => (
                         </header>
                       </Col>
                     </Row>
+                    <Event imageurl="../../static/images/events/event10.jpeg" />
                     <Event imageurl="../../static/images/events/event9.jpeg" />
                     <Event imageurl="../../static/images/events/event8.jpg" />
                     <Event imageurl="../../static/images/events/event6.jpg" />

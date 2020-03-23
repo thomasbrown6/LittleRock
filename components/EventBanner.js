@@ -13,6 +13,9 @@ class EventBanner extends React.Component {
   render() {
     const images = [
       {
+        original: require("../static/images/events/event10.jpeg")
+      },
+      {
         original: require("../static/images/events/event9.jpeg")
       },
       {
