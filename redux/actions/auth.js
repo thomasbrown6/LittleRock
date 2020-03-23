@@ -9,13 +9,12 @@ import {
   REGISTER_SUCCESS,
   REGISTER_FAIL,
   USER_LOADED,
-  AUTH_ERROR,
-  CLEAR_PROFILE
+  AUTH_ERROR
 } from "./types";
 
 // Load User
 export const loadUser = () => async dispatch => {
-  if (localStorage.token) {
+  if (localStorage != null && localStorage.token) {
     setAuthToken(localStorage.token);
   }
 
@@ -73,6 +72,7 @@ export const login = (email, password) => async dispatch => {
     }
   };
 
+  console.log("inside login function");
   const body = JSON.stringify({ email, password });
 
   try {
